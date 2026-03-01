@@ -1,0 +1,65 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "\n Conservación y uso Sostenible  en Montañas y Sierras (CoSMoS)  \n",
+    "section": "",
+    "text": "El Proyecto Conservación y uso Sostenible en Montañas y Sierras (CoSMoS) busca mejorar el estado de conservación y el uso sostenible de los ecosistemas de montaña de México ubicados en el Eje Neovolcánico Transversal, particularmente, en las Áreas Naturales Protegidas (ANP) y sus zonas de influencia. El proyecto está integrado por cuatro componentes que ejecutan CONANP, FMCN y CONABIO: A. Manejo efectivo de ANP federales, B. Restauración, C. Emprendimientos y como parte del componente D. el Monitoreo de la biodiversidad. Este último (componente D) tiene como uno de sus objetivos generales conocer mediante el monitoreo la condición y amenazas de los ecosistemas en la región del proyecto.\nPara la ejecución exitosa del protocolo de monitoreo en el manual indica paso a paso la correcta colocación y configuración de las cámaras trampa, grabadoras y sensores de temperatura y humedad (dataloggers), así como la toma, captura y envío de información que se generan en campo mediante aplicaciones de celular.\nDentro de la región del proyecto CosMoS, se han propuestos diferentes sitios de muestreo con condiciones similares para llevar a cabo el monitoreo. El diseño espacial de muestreo toma la misma estructura general del diseño espacial de SiPeCaM, utilizando unidades de muestreo con características anidadas denominadas cúmulos, módulos, nodos y sitios."
+  },
+  {
+    "objectID": "index.html#antecedentes",
+    "href": "index.html#antecedentes",
+    "title": "\n Conservación y uso Sostenible  en Montañas y Sierras (CoSMoS)  \n",
+    "section": "",
+    "text": "El Proyecto Conservación y uso Sostenible en Montañas y Sierras (CoSMoS) busca mejorar el estado de conservación y el uso sostenible de los ecosistemas de montaña de México ubicados en el Eje Neovolcánico Transversal, particularmente, en las Áreas Naturales Protegidas (ANP) y sus zonas de influencia. El proyecto está integrado por cuatro componentes que ejecutan CONANP, FMCN y CONABIO: A. Manejo efectivo de ANP federales, B. Restauración, C. Emprendimientos y como parte del componente D. el Monitoreo de la biodiversidad. Este último (componente D) tiene como uno de sus objetivos generales conocer mediante el monitoreo la condición y amenazas de los ecosistemas en la región del proyecto.\nPara la ejecución exitosa del protocolo de monitoreo en el manual indica paso a paso la correcta colocación y configuración de las cámaras trampa, grabadoras y sensores de temperatura y humedad (dataloggers), así como la toma, captura y envío de información que se generan en campo mediante aplicaciones de celular.\nDentro de la región del proyecto CosMoS, se han propuestos diferentes sitios de muestreo con condiciones similares para llevar a cabo el monitoreo. El diseño espacial de muestreo toma la misma estructura general del diseño espacial de SiPeCaM, utilizando unidades de muestreo con características anidadas denominadas cúmulos, módulos, nodos y sitios."
+  },
+  {
+    "objectID": "index.html#cúmulos",
+    "href": "index.html#cúmulos",
+    "title": "\n Conservación y uso Sostenible  en Montañas y Sierras (CoSMoS)  \n",
+    "section": "2.1 Cúmulos",
+    "text": "2.1 Cúmulos\nCada cúmulo se compone de dos elementos denominados módulos, los cuales tienen un valor de integridad ecosistémica diferente: módulo íntegridad alta (íntegro) y módulo con integridad media (degradado) (Figura 1).\n\n\n\n\n\n\nFigura 1: Estructura y componentes del diseño espacial para elmonitoreo de la biodiversidad faunística.\n\n\n\nEn el siguiente mapa se muestran los Cúmulos propuestos para el proyecto CoSMoS."
+  },
+  {
+    "objectID": "index.html#modulos-nodos-y-sitios",
+    "href": "index.html#modulos-nodos-y-sitios",
+    "title": "\n Conservación y uso Sostenible  en Montañas y Sierras (CoSMoS)  \n",
+    "section": "2.2 Modulos, nodos y sitios",
+    "text": "2.2 Modulos, nodos y sitios\nCada Cúmulo, se separa en dos grupos de acuerdo con su valor de integridad ecosistémica (IE): módulo íntegro y módulo degradado. Cada módulo se compone de tres elementos denominados nodos. En el mapa se aprecia un Cúmulo, el cual esta compuesto por dos módulos, y cada módulo se compone de tres elementos denominados nodos. Dentro de cada nodo se encuentran los sitios que son la unidad de muestreo más pequeña, y se refiere al lugar donde se van a colocar los sensores (cámaras trampa, grabadoras y sensor de temperatura). Así cada nodo es representado por 5 sitios en forma de un cuadrante de 1km2, en los cuales se ubicaran 5 cámaras trampa, 3 grabadoras y 3 sensores de temperatura y humedad, estos tendrán una disposición en diagonal sobre el cuadrante.\n\n\n\n\nMapa de cúmulos"
+  },
+  {
+    "objectID": "index.html#sensores-pasivos",
+    "href": "index.html#sensores-pasivos",
+    "title": "\n Conservación y uso Sostenible  en Montañas y Sierras (CoSMoS)  \n",
+    "section": "2.3 Sensores pasivos",
+    "text": "2.3 Sensores pasivos\nEl diseño de muestreo implementado en CoSMoS consiste en monitorear de manera simultánea en los seis nodos de cada cúmulo. La evaluación del estado de la fauna se hará con base en los datos obtenidos mediante sensores pasivos (cámaras trampa y grabadoras).\nCada nodo estará compuesto por 5 cámaras trampa, 3 grabadoras y 3 dispositivos para registrar temperatura y humedad (en adelante denominados dataloggers), que operarán por períodos de 90 días continuos en cada temporada de muestreo para la captura de fotografías, y sonidos y datos climáticos. Las cámaras se colocarán en un cuadrante, cuatro de ellas separadas por 1 Km de distancia (una en cada esquina) y la quinta al centro del cuadrante. Las grabadoras y los data loggers se colocarán en tres de los cinco sitios donde se pondrán las cámaras, una al centro del cuadrante y las otras dos en alguna esquina (Figura 2).\n\n\n\n\n\n\nFigura 2: Nodos y sitios."
+  },
+  {
+    "objectID": "shape/Seleccionados_Cumulos.html",
+    "href": "shape/Seleccionados_Cumulos.html",
+    "title": "CoSMoS",
+    "section": "",
+    "text": "&lt;!DOCTYPE qgis PUBLIC ‘http://mrcc.com/qgis.dtd’ ‘SYSTEM’&gt;     \n\n\n                 0 0     false"
+  },
+  {
+    "objectID": "about3.html",
+    "href": "about3.html",
+    "title": "\n Conservación y uso Sostenible  en Montañas y Sierras (CoSMoS)  \n",
+    "section": "",
+    "text": "1 Enlace manual de monitoreo CoSMoS\nManual de monitoreo CoSMoS\nLINK MANUAL DE MONITOREO\n\n\n2 Enlace presentaciones coordinadores locales\nECOYDES\nAMBIOMAS\nWILD FOREST\nCOPANABIS\nIBUNAM\n\n\n3 Enlace a presentaciones\nMONITOREO DE LA BIODIVERSIDAD CONABIO\nLINK MONITOREO DE LA BIODIVERSIDAD\nEvaluación Rápida de Integridad Ecosistémica (ERIE)\nLINK ERIE\nFormulario KoboCollect\nLINK KOBOCOLLECT\nCámara trampa Reconyx HyperFire 2\nLINK CÁMARA TRAMPA\nGrabadora SongMeter Mini Bat 2AA\nLINK GRABADORA SONGMETER MINI BAT\nDatalogger HOBO MX2202 Temp/Light\nLINK DATALOGGER HOBO\nAplicaciones de navegación\nLINK APLICACIONES DE NAVEGACIÓN\n\n\n4 Enlace presentacion SACBÉ\nSACBÉ\nLINK PRESENTACIÓN SACBÉ"
+  },
+  {
+    "objectID": "about2.html",
+    "href": "about2.html",
+    "title": "\n Conservación y uso Sostenible  en Montañas y Sierras (CoSMoS)  \n",
+    "section": "",
+    "text": "1 Enlace de aplicaciones\nKoboCollect\nLiga a koboCollect\nCanopy Capture\nLiga a Canopy Capture\nSongmeter configurator\nLiga a Songmeter configurator\nDatalogger\nLiga Datalogger\nAvanza Maps\nLiga a Avanza Maps\nLocus Map\nLiga a Locus Map"
+  },
+  {
+    "objectID": "shape/puntos_selec_C.html",
+    "href": "shape/puntos_selec_C.html",
+    "title": "CoSMoS",
+    "section": "",
+    "text": "&lt;!DOCTYPE qgis PUBLIC ‘http://mrcc.com/qgis.dtd’ ‘SYSTEM’&gt;     \n\n\n        0 0     false"
+  }
+]
