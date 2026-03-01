@@ -1,0 +1,15 @@
+leaflet
+leaflet.extras
+sp
+rworldxtra
+sf
+tidyverse
+ggplot2
+tibble
+tidyr
+readr
+purrr
+dplyr
+stringr
+forcats
+lubridate

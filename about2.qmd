@@ -1,0 +1,82 @@
+---
+title: |
+ <div class="title-container">
+    <span class="title-text">
+      Conservación y uso Sostenible <br> en Montañas y Sierras (CoSMoS)
+    </span>
+    <img src="Figuras2/CoSMoS_logo.png" alt="Logo de CoSMoS" class="title-logo">
+  </div>
+
+
+subtitle: "Capacitación para Monitoreo Comunitario de la Biodiversidad Faunística"
+
+
+date-format: long
+lang: es
+
+css:
+  - styles.css
+  - https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css
+
+header-includes: |
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Open+Sans:wght@400;500&display=swap" rel="stylesheet">
+
+  <meta name="description" content="Página interactiva sobre Conservación y uso Sostenible en Montañas y Sierras (CoSMoS).">
+  <meta name="keywords" content="conservación, montañas, sierras, CoSMoS">
+  <meta name="author" content="Arturo Zavaleta Aguilar">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+toc: true
+toc-title: "Contenido"
+toc-location: right
+number-sections: true
+
+format:
+  html:
+    title-block-banner: '#F1F1F2'
+    title-block-banner-color: '#F1B24A'
+    mainfont: "Open Sans"
+    heading-font: "Montserrat"
+    link-external-icon: true
+    link-external-newwindow: true
+    execute:
+      echo: false
+      warning: false
+      message: false
+      cache: true
+    include-after-body: |
+      <footer style="text-align: center; padding: 20px; background-color: #164a41; color: #F1B24A;">
+        <p>&copy; 2026 Arturo Zavaleta Aguilar. Todos los derechos reservados.</p>
+      </footer>
+---
+
+
+# Enlace de aplicaciones
+
+[KoboCollect]{style="color:black; font-size: 1.1em; font-weight: bold;"}
+
+[Liga a koboCollect](https://play.google.com/store/apps/details?id=org.koboc.collect.android&pcampaignid=web_share)
+
+[Canopy Capture]{style="color:black; font-size: 1.1em; font-weight: bold;"}
+
+[Liga a Canopy Capture](https://d.apkpure.com/b/APK/com.nikhilpatel.canopycapture?version=latest)
+
+[Songmeter configurator]{style="color:black; font-size: 1.1em; font-weight: bold;"}
+
+[Liga a Songmeter configurator](https://play.google.com/store/apps/details?id=com.wildlifeacoustics.SongMeterMiniConfigurator& pcampaignid=web_share)
+
+[Datalogger]{style="color:black; font-size: 1.1em; font-weight: bold;"}
+
+[Liga Datalogger](https://play.google.com/store/apps/details?id=com.onsetcomp.HOBOconnect&pcampaignid=web _share)
+
+[Avanza Maps]{style="color:black; font-size: 1.1em; font-weight: bold;"}
+
+[Liga a Avanza Maps](https://play.google.com/store/search?q=avenza%20maps&c=apps)
+
+[Locus Map]{style="color:black; font-size: 1.1em; font-weight: bold;"}
+
+[Liga a Locus Map](https://play.google.com/store/search?q=locus+map&c=apps)
+
+

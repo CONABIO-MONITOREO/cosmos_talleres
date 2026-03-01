@@ -1,0 +1,27 @@
+project:
+  type: website
+
+website:
+  title: "CoSMoS"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Capacitación
+      - href: about3.qmd
+        text: Material para capacitación
+      - href: about2.qmd
+        text: Aplicaciones para usuario
+lang: es
+
+format:
+  html:
+    theme: lumen
+    css: 
+     - styles.css
+     - https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css
+    toc: true
+    toc-depth: 3
+    number-sections: false
+
+editor: visual
+

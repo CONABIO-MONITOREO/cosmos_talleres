@@ -1,0 +1,155 @@
+
+/* css styles */
+/* Selector universal */
+* {
+  margin: 0;
+}
+
+/* Selectores básicos */
+h1 {
+  color: #42C5E2;
+}
+
+h3 {
+  color: #9dc88d;
+}
+
+h2 {
+  color: #F6851F;
+}
+
+p {
+  font-size: 14px;
+}
+
+/*
+ul {
+  background-color: #F3E2F7;
+}
+
+ol {
+  color: darkorange;
+}
+*/
+
+/*
+span {
+  background-color: white;
+}
+*/
+
+/* Clases */
+.mi-clase {
+  color: darkblue;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.quarto-title-meta-heading {
+  margin: 6px;
+  padding: 6px;
+}
+
+/* ID */
+#title-block-header {
+  margin: 10px;
+}
+
+/* Imágenes */
+.figure-img {
+  margin: 60px;
+}
+
+.figure-caption {
+  text-align: center;
+}
+
+.kbd {
+  background-color: lightgreen;
+  color: darkblue;
+}
+
+/* Selectores anidados
+ul p {
+  background-color: red;
+}
+*/
+
+/* Pseudoclases */
+ul p:hover,
+.nav-link:hover {
+  background-color: #E37545;
+}
+
+/* Callouts */
+.callout {
+  margin: 25px;
+}
+
+.callout-warning {
+  background-color: #F0EEDF;
+}
+
+.callout p {
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+/* Panel tabset */
+.nav-tabs {
+  background-color: #7ADEF1;
+}
+
+/*#tabset-1-2-tab {
+  color: red;
+  font-size: 30px;
+}*/
+
+.nav-link {
+  font-weight: 900;
+}
+
+.nav-link:hover {
+  color: darkblue;
+  font-size: 20px;
+}
+
+.nav-link:active {
+  font-size: 30px;
+}
+
+.tab-pane {
+  background-color: #EEEEFC;
+  padding: 0.2in;
+  border: 1px solid black;
+}
+
+/* title-container */
+.title-container {
+  display: flex;
+  flex-direction: row; /* Fuerza dirección horizontal (izquierda a derecha) */
+  align-items: center;
+  justify-content: space-between; /* Texto a la izquierda, logo a la derecha */
+  gap: 10px; /* Espacio reducido entre elementos para forzar lado a lado */
+  padding: 0 10px; /* Padding reducido */
+}
+
+
+
+.title-logo {
+  height: 150px; /* Altura del logo (ajustada para no ser excesiva; cambia si quieres más grande/pequeño) */
+  width: auto; /* Mantiene proporción */
+  flex-shrink: 0; /* Evita que se comprima en pantallas pequeñas */
+  filter: drop-shadow(0 2px 4px rgba(0,0,0,0.3));
+  transition: transform 0.3s ease;
+}
+
+.title-text {
+  color: #1995AD; /* Color del título */
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 1.2em;
+  flex-shrink: 0; /* Evita que el texto se comprima */
+  /* Eliminé text-align: center porque en flexbox no es necesario y podría interferir */
+}
+

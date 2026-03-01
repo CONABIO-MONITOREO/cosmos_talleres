@@ -1,0 +1,758 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="es" xml:lang="es"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.8.21">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>quarto-input142f1b3952d92f24 – CoSMoS</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-ea1d7ac60288e0f1efdbc993fd8432ae.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-8fcdffd99069f00ce61be52c32f5e94c.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No se han encontrado resultados",
+    "search-matching-documents-text": "documentos encontrados",
+    "search-copy-link-title": "Copiar el enlace en la búsqueda",
+    "search-hide-matches-text": "Ocultar resultados adicionales",
+    "search-more-match-text": "resultado adicional en este documento",
+    "search-more-matches-text": "resultados adicionales en este documento",
+    "search-clear-button-title": "Borrar",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancelar",
+    "search-submit-button-title": "Enviar",
+    "search-label": "Buscar"
+  }
+}</script>
+<style>
+
+      .quarto-title-block .quarto-title-banner h1,
+      .quarto-title-block .quarto-title-banner h2,
+      .quarto-title-block .quarto-title-banner h3,
+      .quarto-title-block .quarto-title-banner h4,
+      .quarto-title-block .quarto-title-banner h5,
+      .quarto-title-block .quarto-title-banner h6
+      {
+        color: #F1B24A;
+      }
+
+      .quarto-title-block .quarto-title-banner {
+        color: #F1B24A;
+background: #F1F1F2;
+      }
+</style>
+<link href="site_libs/htmltools-fill-0.5.8.1/fill.css" rel="stylesheet">
+
+<script src="site_libs/htmlwidgets-1.6.4/htmlwidgets.js"></script>
+
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+
+<link href="site_libs/leaflet-1.3.1/leaflet.css" rel="stylesheet">
+
+<script src="site_libs/leaflet-1.3.1/leaflet.js"></script>
+
+<link href="site_libs/leafletfix-1.0.0/leafletfix.css" rel="stylesheet">
+
+<script src="site_libs/proj4-2.6.2/proj4.min.js"></script>
+
+<script src="site_libs/Proj4Leaflet-1.0.1/proj4leaflet.js"></script>
+
+<link href="site_libs/rstudio_leaflet-1.3.1/rstudio_leaflet.css" rel="stylesheet">
+
+<script src="site_libs/leaflet-binding-2.2.2/leaflet.js"></script>
+
+<script src="site_libs/leaflet-providers-2.0.0/leaflet-providers_2.0.0.js"></script>
+
+<script src="site_libs/leaflet-providers-plugin-2.2.2/leaflet-providers-plugin.js"></script>
+
+<link href="site_libs/leaflet-minimap-3.3.1/Control.MiniMap.min.css" rel="stylesheet">
+
+<script src="site_libs/leaflet-minimap-3.3.1/Control.MiniMap.min.js"></script>
+
+<script src="site_libs/leaflet-minimap-3.3.1/Minimap-binding.js"></script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&amp;family=Open+Sans:wght@400;500&amp;display=swap" rel="stylesheet">
+
+<meta name="description" content="Página interactiva sobre Conservación y uso Sostenible en Montañas y Sierras (CoSMoS).">
+<meta name="keywords" content="conservación, montañas, sierras, CoSMoS">
+<meta name="author" content="Arturo Zavaleta Aguilar">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body class="nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top quarto-banner">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a href="./index.html" class="navbar-brand navbar-brand-logo">
+    </a>
+    <a class="navbar-brand" href="./index.html">
+    <span class="navbar-title">CoSMoS</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Buscar"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Navegación de palanca" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link active" href="./index.html" aria-current="page"> 
+<span class="menu-text">Capacitación</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./about3.html"> 
+<span class="menu-text">Material para capacitación</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./about2.html"> 
+<span class="menu-text">Aplicaciones para usuario</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-body">
+      <h1 class="title"><div class="title-container">
+<span class="title-text"> Conservación y uso Sostenible <br> en Montañas y Sierras (CoSMoS) </span> <img src="Figuras2/CoSMoS_logo.png" alt="Logo de CoSMoS" class="title-logo">
+</div></h1>
+            <p class="subtitle lead">Capacitación para Monitoreo Comunitario de la Biodiversidad Faunística</p>
+                      </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta">
+
+      
+    
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Contenido</h2>
+   
+  <ul>
+  <li><a href="#introducción" id="toc-introducción" class="nav-link active" data-scroll-target="#introducción"><span class="header-section-number">1</span> Introducción</a>
+  <ul class="collapse">
+  <li><a href="#antecedentes" id="toc-antecedentes" class="nav-link" data-scroll-target="#antecedentes"><span class="header-section-number">1.1</span> Antecedentes</a></li>
+  </ul></li>
+  <li><a href="#cúmulos-proyecto-cosmos" id="toc-cúmulos-proyecto-cosmos" class="nav-link" data-scroll-target="#cúmulos-proyecto-cosmos"><span class="header-section-number">2</span> Cúmulos proyecto CoSMoS</a>
+  <ul class="collapse">
+  <li><a href="#cúmulos" id="toc-cúmulos" class="nav-link" data-scroll-target="#cúmulos"><span class="header-section-number">2.1</span> Cúmulos</a></li>
+  <li><a href="#modulos-nodos-y-sitios" id="toc-modulos-nodos-y-sitios" class="nav-link" data-scroll-target="#modulos-nodos-y-sitios"><span class="header-section-number">2.2</span> Modulos, nodos y sitios</a></li>
+  <li><a href="#sensores-pasivos" id="toc-sensores-pasivos" class="nav-link" data-scroll-target="#sensores-pasivos"><span class="header-section-number">2.3</span> Sensores pasivos</a></li>
+  </ul></li>
+  <li><a href="#temario-del-taller" id="toc-temario-del-taller" class="nav-link" data-scroll-target="#temario-del-taller"><span class="header-section-number">3</span> Temario del Taller</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content quarto-banner-title-block" id="quarto-document-content">
+
+
+
+
+
+<section id="introducción" class="level1" data-number="1">
+<h1 data-number="1"><span class="header-section-number">1</span> Introducción</h1>
+<section id="antecedentes" class="level2" data-number="1.1">
+<h2 data-number="1.1" class="anchored" data-anchor-id="antecedentes"><span class="header-section-number">1.1</span> Antecedentes</h2>
+<p>El Proyecto Conservación y uso Sostenible en Montañas y Sierras (CoSMoS) busca mejorar el estado de conservación y el uso sostenible de los ecosistemas de montaña de México ubicados en el Eje Neovolcánico Transversal, particularmente, en las Áreas Naturales Protegidas (ANP) y sus zonas de influencia. El proyecto está integrado por cuatro componentes que ejecutan CONANP, FMCN y CONABIO: A. <em>Manejo efectivo de ANP federales</em>, B. <em>Restauración</em>, C. <em>Emprendimientos</em> y como parte del componente D. <em>el Monitoreo de la biodiversidad</em>. Este último (componente D) tiene como uno de sus objetivos generales conocer mediante el monitoreo la condición y amenazas de los ecosistemas en la región del proyecto.</p>
+<p>Para la ejecución exitosa del protocolo de monitoreo en el manual indica paso a paso la correcta colocación y configuración de las cámaras trampa, grabadoras y sensores de temperatura y humedad (dataloggers), así como la toma, captura y envío de información que se generan en campo mediante aplicaciones de celular.</p>
+<p>Dentro de la región del proyecto CosMoS, se han propuestos diferentes sitios de muestreo con condiciones similares para llevar a cabo el monitoreo. El diseño espacial de muestreo toma la misma estructura general del diseño espacial de SiPeCaM, utilizando unidades de muestreo con características anidadas denominadas cúmulos, módulos, nodos y sitios.</p>
+</section>
+</section>
+<section id="cúmulos-proyecto-cosmos" class="level1" data-number="2">
+<h1 data-number="2"><span class="header-section-number">2</span> Cúmulos proyecto CoSMoS</h1>
+<section id="cúmulos" class="level2" data-number="2.1">
+<h2 data-number="2.1" class="anchored" data-anchor-id="cúmulos"><span class="header-section-number">2.1</span> Cúmulos</h2>
+<p>Cada cúmulo se compone de dos elementos denominados módulos, los cuales tienen un valor de integridad ecosistémica diferente: módulo íntegridad alta (íntegro) y módulo con integridad media (degradado) (<a href="#fig-01" class="quarto-xref">Figura&nbsp;1</a>).</p>
+<div id="fig-01" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-01-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="Figuras2/cumulo.png" class="img-fluid figure-img" style="width:60.0%">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-01-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figura&nbsp;1: Estructura y componentes del diseño espacial para elmonitoreo de la biodiversidad faunística.
+</figcaption>
+</figure>
+</div>
+<p>En el siguiente mapa se muestran los Cúmulos propuestos para el proyecto CoSMoS.</p>
+<!--ACá poner el mapa interactivo de los cúmolos -->
+<div class="cell">
+<div class="cell-output-display">
+<div class="leaflet html-widget html-fill-item" id="htmlwidget-9e8c7f79370a6e618df0" style="width:100%;height:464px;"></div>
+<script type="application/json" data-for="htmlwidget-9e8c7f79370a6e618df0">{"x":{"options":{"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}}},"calls":[{"method":"addProviderTiles","args":["Esri.WorldImagery",null,null,{"errorTileUrl":"","noWrap":false,"detectRetina":false}]},{"method":"addPolygons","args":[[[[{"lng":[-100.3385946358643,-100.3290365659726,-100.3291479234,-100.3387053564309,-100.3385946358643],"lat":[19.55437099165634,19.55426572367403,19.54520506637092,19.54531032630461,19.55437099165634]}]],[[{"lng":[-100.3190303844688,-100.309469796081,-100.3095824872925,-100.3191424384859,-100.3190303844688],"lat":[19.59040333427535,19.5902968260859,19.58123583122334,19.58134233127791,19.59040333427535]}]],[[{"lng":[-100.2912599639857,-100.2817045160349,-100.2818189966801,-100.2913738081244,-100.2912599639857],"lat":[19.51759664979314,19.51748839580449,19.50842813679447,19.5085363824974,19.51759664979314]}]],[[{"lng":[-100.4329228251399,-100.4233569621804,-100.4234621189928,-100.4330273440431,-100.4329228251399],"lat":[19.66412624011982,19.66402691959392,19.65496513334674,19.65506444630286,19.66412624011982]}]],[[{"lng":[-100.4227257266091,-100.4131560484527,-100.4132619278954,-100.4228309676347,-100.4227257266091],"lat":[19.71839943749186,19.71829946690182,19.70923717496686,19.70933713794967,19.71839943749186]}]],[[{"lng":[-100.3848781915275,-100.3753111235162,-100.3754194987426,-100.3849859286888,-100.3848781915275],"lat":[19.68174736263495,19.68164500453237,19.67258308482496,19.67268543513034,19.68174736263495]}]],[[{"lng":[-98.85651593025571,-98.84704513301128,-98.84725335981221,-98.85672353198945,-98.85651593025571],"lat":[18.3262962361093,18.32609765510009,18.31705266572419,18.31725123101426,18.3262962361093]}]],[[{"lng":[-98.82621708314599,-98.81674073948597,-98.81695109140357,-98.82642680926993,-98.82621708314599],"lat":[18.40710862090769,18.40690810556892,18.3978621063514,18.39806260585362,18.40710862090769]}]],[[{"lng":[-98.81568856279519,-98.80620911675419,-98.80642023392586,-98.81589905376542,-98.81568856279519],"lat":[18.45213984307529,18.45193865070525,18.44289208761225,18.44309326411224,18.45213984307529]}]],[[{"lng":[-98.80937294689888,-98.79990291303174,-98.80011423717728,-98.80958364608708,-98.80937294689888],"lat":[18.3162524326977,18.31605088149023,18.30700608999157,18.30720762524044,18.3162524326977]}]],[[{"lng":[-98.81021557674518,-98.80074804221287,-98.80095925477612,-98.81042616468073,-98.81021557674518],"lat":[18.28007391645849,18.27987242910197,18.27082811406695,18.27102958545391,18.28007391645849]}]],[[{"lng":[-98.77840984919742,-98.76893239358128,-98.76914593081509,-98.7786227605,-98.77840984919742],"lat":[18.42419228748007,18.42398875176843,18.41494259986224,18.41514611950651,18.42419228748007]}]],[[{"lng":[-98.7376777108974,-98.72813666536189,-98.7283543504069,-98.73789476159197,-98.7376777108974],"lat":[19.33800409045526,19.33779774156726,19.32874101556502,19.32894734858001,19.33800409045526]}]],[[{"lng":[-98.6806527305567,-98.67111249439179,-98.67133395595239,-98.6808735578861,-98.6806527305567],"lat":[19.32770031441405,19.32749036699103,19.31843383123503,19.31864376250356,19.32770031441405]}]],[[{"lng":[-98.67221950766172,-98.66268247124599,-98.66290441937355,-98.67244082198515,-98.67221950766172],"lat":[19.28220863296086,19.28199816418199,19.27294211812028,19.27315257068343,19.28220863296086]}]],[[{"lng":[-98.71509858389547,-98.70554743547426,-98.70576685604046,-98.71531736877172,-98.71509858389547],"lat":[19.48251075782804,19.48230294897831,19.4732447805631,19.47345257349411,19.48251075782804]}]],[[{"lng":[-98.66734313490437,-98.65779213346353,-98.65801473239146,-98.66756509817175,-98.66734313490437],"lat":[19.48146568170307,19.48125485693122,19.47219676880383,19.47240757742558,19.48146568170307]}]],[[{"lng":[-98.65890483172359,-98.6493570373604,-98.64958012336012,-98.65912728249128,-98.65890483172359],"lat":[19.43596532351113,19.43575397657652,19.42669635937463,19.4269076900978,19.43596532351113]}]],[[{"lng":[-100.5395120608503,-100.5299549726021,-100.5300529292413,-100.5396093807401,-100.5395120608503],"lat":[19.53832057334598,19.53822800031013,19.52916736184618,19.52925992780062,19.53832057334598]}]],[[{"lng":[-100.5293669584996,-100.5198060610438,-100.5199047333144,-100.529464993514,-100.5293669584996],"lat":[19.59259369635912,19.59250047681621,19.58343931364651,19.58353252606981,19.59259369635912]}]],[[{"lng":[-100.4816638249052,-100.4721036313249,-100.472205476258,-100.4817650326804,-100.4816638249052],"lat":[19.58306042397834,19.58296419157476,19.57390315278719,19.57399937783902,19.58306042397834]}]],[[{"lng":[-100.4451851119443,-100.4356357931507,-100.4357399505014,-100.4452886335892,-100.4451851119443],"lat":[19.42864675245128,19.42854823239893,19.4194887550144,19.41958726750655,19.42864675245128]}]],[[{"lng":[-100.4066696422192,-100.3971184718262,-100.3972252146099,-100.4067757490543,-100.4066696422192],"lat":[19.45542796663167,19.45532701056143,19.44626728894546,19.44636823727457,19.45542796663167]}]],[[{"lng":[-100.3883186665563,-100.3787719745072,-100.3788798885468,-100.3884259452453,-100.3883186665563],"lat":[19.39180938203181,19.39170727416421,19.38264821280105,19.38275031282481,19.39180938203181]}]],[[{"lng":[-100.2739035073439,-100.2641967327255,-100.2643142112746,-100.2740203290693,-100.2739035073439],"lat":[21.63979854188473,21.63968900688404,21.63061384074859,21.63072336788434,21.63979854188473]}]],[[{"lng":[-100.2357929562193,-100.2260901852792,-100.2262101936081,-100.2359123082704,-100.2357929562193],"lat":[21.58490642972758,21.58479448616522,21.57571958023049,21.57583151574121,21.58490642972758]}]],[[{"lng":[-100.1963718368877,-100.186665848781,-100.1867885651923,-100.1964938965903,-100.1963718368877],"lat":[21.62982995420538,21.62971551377695,21.62064044964051,21.62075488184927,21.62982995420538]}]],[[{"lng":[-100.1855606531845,-100.1758487673404,-100.1759722908769,-100.1856835192153,-100.1855606531845],"lat":[21.71139275092769,21.71127762204964,21.70220223689419,21.7023173575242,21.71139275092769]}]],[[{"lng":[-100.1366228290496,-100.1269090547475,-100.1270359172978,-100.1367490338443,-100.1366228290496],"lat":[21.73803722809376,21.73791900109225,21.72884355212699,21.72896177066565,21.73803722809376]}]],[[{"lng":[-100.1081222744756,-100.0984118398335,-100.0985405884173,-100.1082503657594,-100.1081222744756],"lat":[21.69230389594048,21.69218386791858,21.68310862195058,21.68322864136841,21.69230389594048]}]],[[{"lng":[-100.2739035073439,-100.2641967327255,-100.2643142112746,-100.2740203290693,-100.2739035073439],"lat":[21.63979854188473,21.63968900688404,21.63061384074859,21.63072336788434,21.63979854188473]}]],[[{"lng":[-100.2357929562193,-100.2260901852792,-100.2262101936081,-100.2359123082704,-100.2357929562193],"lat":[21.58490642972758,21.58479448616522,21.57571958023049,21.57583151574121,21.58490642972758]}]],[[{"lng":[-100.1963718368877,-100.186665848781,-100.1867885651923,-100.1964938965903,-100.1963718368877],"lat":[21.62982995420538,21.62971551377695,21.62064044964051,21.62075488184927,21.62982995420538]}]],[[{"lng":[-100.0907698162034,-100.0810699225424,-100.0811997043877,-100.090898942177,-100.0907698162034],"lat":[21.54686389316462,21.54674277554695,21.53766815252112,21.53778926141702,21.54686389316462]}]],[[{"lng":[-100.0916733313982,-100.0819780269775,-100.0821076860287,-100.0918023351981,-100.0916733313982],"lat":[21.48334231405438,21.48322125752755,21.47414691766616,21.47426796545837,21.48334231405438]}]],[[{"lng":[-100.0232720291109,-100.0135742274792,-100.0137085458165,-100.0234056918678,-100.0232720291109],"lat":[21.51877959169353,21.51865420504961,21.50957976435292,21.50970514195984,21.51877959169353]}]],[[{"lng":[-98.92831058676815,-98.91867858442673,-98.91888554245953,-98.92851689826044,-98.92831058676815],"lat":[20.62046883123113,20.62027427984783,20.61120617548496,20.61140071245707,20.62046883123113]}]],[[{"lng":[-98.91722909947563,-98.90759259675966,-98.90780039665471,-98.91743625222803,-98.91722909947563],"lat":[20.68375274376141,20.68355748228147,20.67448896058061,20.67468420762434,20.68375274376141]}]],[[{"lng":[-98.87952205260873,-98.86988825007869,-98.87009852544905,-98.87973168120644,-98.87952205260873],"lat":[20.64669449661507,20.64649685645346,20.63742863838963,20.63762626392289,20.64669449661507]}]],[[{"lng":[-98.69307195093076,-98.6834568035313,-98.68367917594428,-98.69329367911104,-98.69307195093076],"lat":[20.38874804519118,20.38853865957628,20.37947256367134,20.37968193366853,20.38874804519118]}]],[[{"lng":[-98.64454652391758,-98.63493023780995,-98.6351558918023,-98.64477153353478,-98.64454652391758],"lat":[20.40582730924641,20.40561485310856,20.39654870011691,20.39676114041626,20.40582730924641]}]],[[{"lng":[-98.60721919172266,-98.59760624807242,-98.59783432655925,-98.6074466262901,-98.60721919172266],"lat":[20.35964399208246,20.3594291846963,20.35036343689212,20.35057822824246,20.35964399208246]}]]],null,null,{"interactive":true,"className":"","stroke":true,"color":["#4C00FF","#4C00FF","#4C00FF","#4C00FF","#4C00FF","#4C00FF","#004CFF","#004CFF","#004CFF","#004CFF","#004CFF","#004CFF","#00E5FF","#00E5FF","#00E5FF","#00E5FF","#00E5FF","#00E5FF","#00FF4D","#00FF4D","#00FF4D","#00FF4D","#00FF4D","#00FF4D","#E6FF00","#E6FF00","#E6FF00","#E6FF00","#E6FF00","#E6FF00","#FFFF00","#FFFF00","#FFFF00","#FFFF00","#FFFF00","#FFFF00","#FFE0B3","#FFE0B3","#FFE0B3","#FFE0B3","#FFE0B3","#FFE0B3"],"weight":11,"opacity":0.5,"fill":true,"fillColor":["#4C00FF","#4C00FF","#4C00FF","#4C00FF","#4C00FF","#4C00FF","#004CFF","#004CFF","#004CFF","#004CFF","#004CFF","#004CFF","#00E5FF","#00E5FF","#00E5FF","#00E5FF","#00E5FF","#00E5FF","#00FF4D","#00FF4D","#00FF4D","#00FF4D","#00FF4D","#00FF4D","#E6FF00","#E6FF00","#E6FF00","#E6FF00","#E6FF00","#E6FF00","#FFFF00","#FFFF00","#FFFF00","#FFFF00","#FFFF00","#FFFF00","#FFE0B3","#FFE0B3","#FFE0B3","#FFE0B3","#FFE0B3","#FFE0B3"],"fillOpacity":0.7,"smoothFactor":1,"noClip":false},["Cúmulo 1","Cúmulo 1","Cúmulo 1","Cúmulo 1","Cúmulo 1","Cúmulo 1","Cúmulo 12","Cúmulo 12","Cúmulo 12","Cúmulo 12","Cúmulo 12","Cúmulo 12","Cúmulo 15","Cúmulo 15","Cúmulo 15","Cúmulo 15","Cúmulo 15","Cúmulo 15","Cúmulo 2","Cúmulo 2","Cúmulo 2","Cúmulo 2","Cúmulo 2","Cúmulo 2","Cúmulo 5","Cúmulo 5","Cúmulo 5","Cúmulo 5","Cúmulo 5","Cúmulo 5","Cúmulo 6","Cúmulo 6","Cúmulo 6","Cúmulo 6","Cúmulo 6","Cúmulo 6","Cúmulo 9","Cúmulo 9","Cúmulo 9","Cúmulo 9","Cúmulo 9","Cúmulo 9"],null,null,{"interactive":false,"permanent":false,"direction":"auto","opacity":1,"offset":[0,0],"textsize":"10px","textOnly":false,"className":"","sticky":true},null]},{"method":"addLegend","args":[{"colors":["#4C00FF","#004CFF","#00E5FF","#00FF4D","#E6FF00","#FFFF00","#FFE0B3"],"labels":["Cúmulo 1","Cúmulo 12","Cúmulo 15","Cúmulo 2","Cúmulo 5","Cúmulo 6","Cúmulo 9"],"na_color":null,"na_label":"NA","opacity":0.8,"position":"topright","type":"unknown","title":"Cúmulos CoSMoS","extra":null,"layerId":null,"className":"info legend","group":null}]},{"method":"addScaleBar","args":[{"maxWidth":100,"metric":true,"imperial":true,"updateWhenIdle":true,"position":"bottomleft"}]},{"method":"addMiniMap","args":[null,null,"bottomright",150,150,19,19,-5,false,false,false,true,false,false,{"color":"#ff7800","weight":1,"clickable":false},{"color":"#000000","weight":1,"clickable":false,"opacity":0,"fillOpacity":0},{"hideText":"Hide MiniMap","showText":"Show MiniMap"},[]]}],"limits":{"lat":[18.27082811406695,21.73803722809376],"lng":[-100.5396093807401,-98.59760624807242]}},"evals":[],"jsHooks":[]}</script>
+</div>
+</div>
+</section>
+<section id="modulos-nodos-y-sitios" class="level2" data-number="2.2">
+<h2 data-number="2.2" class="anchored" data-anchor-id="modulos-nodos-y-sitios"><span class="header-section-number">2.2</span> Modulos, nodos y sitios</h2>
+<p>Cada Cúmulo, se separa en dos grupos de acuerdo con su valor de integridad ecosistémica (IE): módulo íntegro y módulo degradado. Cada módulo se compone de tres elementos denominados nodos. En el mapa se aprecia un Cúmulo, el cual esta compuesto por dos módulos, y cada módulo se compone de tres elementos denominados nodos. Dentro de cada nodo se encuentran los <em>sitios</em> que son la unidad de muestreo más pequeña, y se refiere al lugar donde se van a colocar los sensores (cámaras trampa, grabadoras y sensor de temperatura). Así cada nodo es representado por 5 sitios en forma de un cuadrante de 1km2, en los cuales se ubicaran 5 cámaras trampa, 3 grabadoras y 3 sensores de temperatura y humedad, estos tendrán una disposición en diagonal sobre el cuadrante.</p>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="leaflet html-widget html-fill-item" id="htmlwidget-0d1f66d2cbefd67a023c" style="width:100%;height:464px;"></div>
+<script type="application/json" data-for="htmlwidget-0d1f66d2cbefd67a023c">{"x":{"options":{"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}}},"calls":[{"method":"addProviderTiles","args":["Esri.WorldImagery",null,null,{"errorTileUrl":"","noWrap":false,"detectRetina":false}]},{"method":"addPolygons","args":[[[[{"lng":[-100.3385946358643,-100.3290365659726,-100.3291479234,-100.3387053564309,-100.3385946358643],"lat":[19.55437099165634,19.55426572367403,19.54520506637092,19.54531032630461,19.55437099165634]}]],[[{"lng":[-100.3190303844688,-100.309469796081,-100.3095824872925,-100.3191424384859,-100.3190303844688],"lat":[19.59040333427535,19.5902968260859,19.58123583122334,19.58134233127791,19.59040333427535]}]],[[{"lng":[-100.2912599639857,-100.2817045160349,-100.2818189966801,-100.2913738081244,-100.2912599639857],"lat":[19.51759664979314,19.51748839580449,19.50842813679447,19.5085363824974,19.51759664979314]}]],[[{"lng":[-100.4329228251399,-100.4233569621804,-100.4234621189928,-100.4330273440431,-100.4329228251399],"lat":[19.66412624011982,19.66402691959392,19.65496513334674,19.65506444630286,19.66412624011982]}]],[[{"lng":[-100.4227257266091,-100.4131560484527,-100.4132619278954,-100.4228309676347,-100.4227257266091],"lat":[19.71839943749186,19.71829946690182,19.70923717496686,19.70933713794967,19.71839943749186]}]],[[{"lng":[-100.3848781915275,-100.3753111235162,-100.3754194987426,-100.3849859286888,-100.3848781915275],"lat":[19.68174736263495,19.68164500453237,19.67258308482496,19.67268543513034,19.68174736263495]}]],[[{"lng":[-98.85651593025571,-98.84704513301128,-98.84725335981221,-98.85672353198945,-98.85651593025571],"lat":[18.3262962361093,18.32609765510009,18.31705266572419,18.31725123101426,18.3262962361093]}]],[[{"lng":[-98.82621708314599,-98.81674073948597,-98.81695109140357,-98.82642680926993,-98.82621708314599],"lat":[18.40710862090769,18.40690810556892,18.3978621063514,18.39806260585362,18.40710862090769]}]],[[{"lng":[-98.81568856279519,-98.80620911675419,-98.80642023392586,-98.81589905376542,-98.81568856279519],"lat":[18.45213984307529,18.45193865070525,18.44289208761225,18.44309326411224,18.45213984307529]}]],[[{"lng":[-98.80937294689888,-98.79990291303174,-98.80011423717728,-98.80958364608708,-98.80937294689888],"lat":[18.3162524326977,18.31605088149023,18.30700608999157,18.30720762524044,18.3162524326977]}]],[[{"lng":[-98.81021557674518,-98.80074804221287,-98.80095925477612,-98.81042616468073,-98.81021557674518],"lat":[18.28007391645849,18.27987242910197,18.27082811406695,18.27102958545391,18.28007391645849]}]],[[{"lng":[-98.77840984919742,-98.76893239358128,-98.76914593081509,-98.7786227605,-98.77840984919742],"lat":[18.42419228748007,18.42398875176843,18.41494259986224,18.41514611950651,18.42419228748007]}]],[[{"lng":[-98.7376777108974,-98.72813666536189,-98.7283543504069,-98.73789476159197,-98.7376777108974],"lat":[19.33800409045526,19.33779774156726,19.32874101556502,19.32894734858001,19.33800409045526]}]],[[{"lng":[-98.6806527305567,-98.67111249439179,-98.67133395595239,-98.6808735578861,-98.6806527305567],"lat":[19.32770031441405,19.32749036699103,19.31843383123503,19.31864376250356,19.32770031441405]}]],[[{"lng":[-98.67221950766172,-98.66268247124599,-98.66290441937355,-98.67244082198515,-98.67221950766172],"lat":[19.28220863296086,19.28199816418199,19.27294211812028,19.27315257068343,19.28220863296086]}]],[[{"lng":[-98.71509858389547,-98.70554743547426,-98.70576685604046,-98.71531736877172,-98.71509858389547],"lat":[19.48251075782804,19.48230294897831,19.4732447805631,19.47345257349411,19.48251075782804]}]],[[{"lng":[-98.66734313490437,-98.65779213346353,-98.65801473239146,-98.66756509817175,-98.66734313490437],"lat":[19.48146568170307,19.48125485693122,19.47219676880383,19.47240757742558,19.48146568170307]}]],[[{"lng":[-98.65890483172359,-98.6493570373604,-98.64958012336012,-98.65912728249128,-98.65890483172359],"lat":[19.43596532351113,19.43575397657652,19.42669635937463,19.4269076900978,19.43596532351113]}]],[[{"lng":[-100.5395120608503,-100.5299549726021,-100.5300529292413,-100.5396093807401,-100.5395120608503],"lat":[19.53832057334598,19.53822800031013,19.52916736184618,19.52925992780062,19.53832057334598]}]],[[{"lng":[-100.5293669584996,-100.5198060610438,-100.5199047333144,-100.529464993514,-100.5293669584996],"lat":[19.59259369635912,19.59250047681621,19.58343931364651,19.58353252606981,19.59259369635912]}]],[[{"lng":[-100.4816638249052,-100.4721036313249,-100.472205476258,-100.4817650326804,-100.4816638249052],"lat":[19.58306042397834,19.58296419157476,19.57390315278719,19.57399937783902,19.58306042397834]}]],[[{"lng":[-100.4451851119443,-100.4356357931507,-100.4357399505014,-100.4452886335892,-100.4451851119443],"lat":[19.42864675245128,19.42854823239893,19.4194887550144,19.41958726750655,19.42864675245128]}]],[[{"lng":[-100.4066696422192,-100.3971184718262,-100.3972252146099,-100.4067757490543,-100.4066696422192],"lat":[19.45542796663167,19.45532701056143,19.44626728894546,19.44636823727457,19.45542796663167]}]],[[{"lng":[-100.3883186665563,-100.3787719745072,-100.3788798885468,-100.3884259452453,-100.3883186665563],"lat":[19.39180938203181,19.39170727416421,19.38264821280105,19.38275031282481,19.39180938203181]}]],[[{"lng":[-100.2739035073439,-100.2641967327255,-100.2643142112746,-100.2740203290693,-100.2739035073439],"lat":[21.63979854188473,21.63968900688404,21.63061384074859,21.63072336788434,21.63979854188473]}]],[[{"lng":[-100.2357929562193,-100.2260901852792,-100.2262101936081,-100.2359123082704,-100.2357929562193],"lat":[21.58490642972758,21.58479448616522,21.57571958023049,21.57583151574121,21.58490642972758]}]],[[{"lng":[-100.1963718368877,-100.186665848781,-100.1867885651923,-100.1964938965903,-100.1963718368877],"lat":[21.62982995420538,21.62971551377695,21.62064044964051,21.62075488184927,21.62982995420538]}]],[[{"lng":[-100.1855606531845,-100.1758487673404,-100.1759722908769,-100.1856835192153,-100.1855606531845],"lat":[21.71139275092769,21.71127762204964,21.70220223689419,21.7023173575242,21.71139275092769]}]],[[{"lng":[-100.1366228290496,-100.1269090547475,-100.1270359172978,-100.1367490338443,-100.1366228290496],"lat":[21.73803722809376,21.73791900109225,21.72884355212699,21.72896177066565,21.73803722809376]}]],[[{"lng":[-100.1081222744756,-100.0984118398335,-100.0985405884173,-100.1082503657594,-100.1081222744756],"lat":[21.69230389594048,21.69218386791858,21.68310862195058,21.68322864136841,21.69230389594048]}]],[[{"lng":[-100.2739035073439,-100.2641967327255,-100.2643142112746,-100.2740203290693,-100.2739035073439],"lat":[21.63979854188473,21.63968900688404,21.63061384074859,21.63072336788434,21.63979854188473]}]],[[{"lng":[-100.2357929562193,-100.2260901852792,-100.2262101936081,-100.2359123082704,-100.2357929562193],"lat":[21.58490642972758,21.58479448616522,21.57571958023049,21.57583151574121,21.58490642972758]}]],[[{"lng":[-100.1963718368877,-100.186665848781,-100.1867885651923,-100.1964938965903,-100.1963718368877],"lat":[21.62982995420538,21.62971551377695,21.62064044964051,21.62075488184927,21.62982995420538]}]],[[{"lng":[-100.0907698162034,-100.0810699225424,-100.0811997043877,-100.090898942177,-100.0907698162034],"lat":[21.54686389316462,21.54674277554695,21.53766815252112,21.53778926141702,21.54686389316462]}]],[[{"lng":[-100.0916733313982,-100.0819780269775,-100.0821076860287,-100.0918023351981,-100.0916733313982],"lat":[21.48334231405438,21.48322125752755,21.47414691766616,21.47426796545837,21.48334231405438]}]],[[{"lng":[-100.0232720291109,-100.0135742274792,-100.0137085458165,-100.0234056918678,-100.0232720291109],"lat":[21.51877959169353,21.51865420504961,21.50957976435292,21.50970514195984,21.51877959169353]}]],[[{"lng":[-98.92831058676815,-98.91867858442673,-98.91888554245953,-98.92851689826044,-98.92831058676815],"lat":[20.62046883123113,20.62027427984783,20.61120617548496,20.61140071245707,20.62046883123113]}]],[[{"lng":[-98.91722909947563,-98.90759259675966,-98.90780039665471,-98.91743625222803,-98.91722909947563],"lat":[20.68375274376141,20.68355748228147,20.67448896058061,20.67468420762434,20.68375274376141]}]],[[{"lng":[-98.87952205260873,-98.86988825007869,-98.87009852544905,-98.87973168120644,-98.87952205260873],"lat":[20.64669449661507,20.64649685645346,20.63742863838963,20.63762626392289,20.64669449661507]}]],[[{"lng":[-98.69307195093076,-98.6834568035313,-98.68367917594428,-98.69329367911104,-98.69307195093076],"lat":[20.38874804519118,20.38853865957628,20.37947256367134,20.37968193366853,20.38874804519118]}]],[[{"lng":[-98.64454652391758,-98.63493023780995,-98.6351558918023,-98.64477153353478,-98.64454652391758],"lat":[20.40582730924641,20.40561485310856,20.39654870011691,20.39676114041626,20.40582730924641]}]],[[{"lng":[-98.60721919172266,-98.59760624807242,-98.59783432655925,-98.6074466262901,-98.60721919172266],"lat":[20.35964399208246,20.3594291846963,20.35036343689212,20.35057822824246,20.35964399208246]}]]],null,null,{"interactive":true,"className":"","stroke":true,"color":["#9FFC31","#9FFC31","#9FFC31","#9FFC31","#9FFC31","#9FFC31","#9FFC31","#F5FC31","#F5FC31","#9FFC31","#9FFC31","#F5FC31","#9FFC31","#9FFC31","#9FFC31","#9FFC31","#9FFC31","#9FFC31","#9FFC31","#9FFC31","#9FFC31","#F5FC31","#F5FC31","#F5FC31","#9FFC31","#9FFC31","#9FFC31","#9FFC31","#9FFC31","#9FFC31","#9FFC31","#9FFC31","#9FFC31","#F5FC31","#F5FC31","#F5FC31","#9FFC31","#9FFC31","#9FFC31","#F5FC31","#F5FC31","#F5FC31"],"weight":8,"opacity":0.5,"fill":true,"fillColor":["#9FFC31","#9FFC31","#9FFC31","#9FFC31","#9FFC31","#9FFC31","#9FFC31","#F5FC31","#F5FC31","#9FFC31","#9FFC31","#F5FC31","#9FFC31","#9FFC31","#9FFC31","#9FFC31","#9FFC31","#9FFC31","#9FFC31","#9FFC31","#9FFC31","#F5FC31","#F5FC31","#F5FC31","#9FFC31","#9FFC31","#9FFC31","#9FFC31","#9FFC31","#9FFC31","#9FFC31","#9FFC31","#9FFC31","#F5FC31","#F5FC31","#F5FC31","#9FFC31","#9FFC31","#9FFC31","#F5FC31","#F5FC31","#F5FC31"],"fillOpacity":0,"smoothFactor":1,"noClip":false},["C1_Mariposa_Monarca","C1_Mariposa_Monarca","C1_Mariposa_Monarca","C1_Mariposa_Monarca","C1_Mariposa_Monarca","C1_Mariposa_Monarca","C12_Sierra_Huautla","C12_Sierra_Huautla","C12_Sierra_Huautla","C12_Sierra_Huautla","C12_Sierra_Huautla","C12_Sierra_Huautla","C15_Izta-Popo","C15_Izta-Popo","C15_Izta-Popo","C15_Izta-Popo","C15_Izta-Popo","C15_Izta-Popo","C2_Mariposa_Monarca","C2_Mariposa_Monarca","C2_Mariposa_Monarca","C2_Mariposa_Monarca","C2_Mariposa_Monarca","C2_Mariposa_Monarca","C5_Sierra_GordaG","C5_Sierra_GordaG","C5_Sierra_GordaG","C5_Sierra_GordaG","C5_Sierra_GordaG","C5_Sierra_GordaG","C6_Sierra_GordaG","C6_Sierra_GordaG","C6_Sierra_GordaG","C6_Sierra_GordaG","C6_Sierra_GordaG","C6_Sierra_GordaG","C9_Barranca_Meztitlan","C9_Barranca_Meztitlan","C9_Barranca_Meztitlan","C9_Barranca_Meztitlan","C9_Barranca_Meztitlan","C9_Barranca_Meztitlan"],null,null,{"interactive":false,"permanent":false,"direction":"auto","opacity":1,"offset":[0,0],"textsize":"10px","textOnly":false,"className":"","sticky":true},null]},{"method":"addCircleMarkers","args":[[19.55339882211801,19.55331588551946,19.54617728320557,19.54626021480805,19.54978809136643,19.58943099743191,19.58934708372109,19.58220821544774,19.58229212410895,19.58581964521365,19.51662420571241,19.51653891655493,19.50940062802363,19.50948591203784,19.51301245545154,19.66315458186106,19.66307633103289,19.65593683930017,19.65601508542952,19.65954574961123,19.71742765671963,19.71734889372986,19.71020900357882,19.7102877618465,19.71381836929849,19.68077536804007,19.6806947240215,19.67355512712075,19.67363576629928,19.67716528661612,18.32531582862337,18.32515937432106,18.31803311562413,18.31818956016897,18.32167450683291,18.4061279012465,18.40596992295769,18.39884286862911,18.39900083708757,18.40248541981267,18.45115899185551,18.45100048015827,18.44387298156743,18.44403148341356,18.4475160216837,18.31527173112606,18.31511293671969,18.30798683390388,18.30814561840418,18.31162931716414,18.27909327214453,18.27893452804519,18.2718088006189,18.27196753480534,18.27545107094686,18.42321123126677,18.42305087334222,18.41592369869581,18.41608404664677,18.41956749985924,19.33702161560052,19.33685904124822,19.32972353562651,19.32988610012587,19.33337261260817,19.32671747801461,19.32655206851537,19.31941671275901,19.31958211223062,19.3230671323142,19.28122579313379,19.28105997288008,19.27392500293311,19.27409081312111,19.27757543484716,19.48152797532788,19.48136425072234,19.47422760866584,19.47439132339008,19.47787782931536,19.48048258780848,19.48031648707382,19.47317990825421,19.47334599896392,19.47683128531152,19.43498222411246,19.43481571198767,19.42767950418999,19.42784600625183,19.43133090131771,19.53734975237747,19.53727681763975,19.53013823024946,19.53021116059153,19.53374403013143,19.59162275123719,19.59154930714042,19.58441030634811,19.58448374602545,19.58801656772907,19.58208917245159,19.58201335463788,19.5748744518228,19.57495026507307,19.57848185101578,19.42767542365857,19.42759780349708,19.42046013084408,19.42053774631268,19.42406781574367,19.4544563535759,19.45437681416907,19.44723894907881,19.44731848368044,19.450847689853,19.39083771674112,19.3907572698786,19.38361992497182,19.3837003669654,19.38722885922041,21.63882438381901,21.63882438381901,21.63873808535802,21.63873808535802,21.63158805201529,21.63158805201529,21.63167434559425,21.63167434559425,21.63520626145378,21.63520626145378,21.58393204369852,21.58393204369852,21.58384384762448,21.58384384762448,21.57669401927,21.57669401927,21.57678221034605,21.57678221034605,21.58031307486496,21.58031307486496,21.62885528661139,21.62885528661139,21.62876512335067,21.62876512335067,21.62161517034004,21.62161517034004,21.62170532849852,21.62170532849852,21.62523527193422,21.62523527193422,21.71041797637596,21.7103272707102,21.70317706477661,21.70326776532251,21.70679756421909,21.73706211818568,21.73696897162561,21.72981871540041,21.72991185670725,21.73344046046412,21.69132861645837,21.69123405094387,21.68408395464187,21.68417851481551,21.68770632909351,21.63882438381901,21.63882438381901,21.63873808535802,21.63873808535802,21.63158805201529,21.63158805201529,21.63167434559425,21.63167434559425,21.63520626145378,21.63520626145378,21.58393204369852,21.58393204369852,21.58384384762448,21.58384384762448,21.57669401927,21.57669401927,21.57678221034605,21.57678221034605,21.58031307486496,21.58031307486496,21.62885528661139,21.62885528661139,21.62876512335067,21.62876512335067,21.62161517034004,21.62161517034004,21.62170532849852,21.62170532849852,21.62523527193422,21.62523527193422,21.54588856396976,21.5457931400075,21.53864353449183,21.53873895304019,21.54226609241953,21.48236702128234,21.48227164545265,21.47512226303208,21.47521763343993,21.47874468519711,21.51780382896946,21.51770504160449,21.51055557971376,21.51065436146913,21.51417974741647,20.61948640277183,20.6193331231734,20.612188653028,20.61234192368092,20.61583756806732,20.68277019580633,20.68261635674761,20.6754715577929,20.67562538789058,20.67912091710894,20.64571172849791,20.64555601536815,20.63841145562326,20.63856715967268,20.64206163225469,20.38776425591272,20.38759928899923,20.38045640115268,20.38062135837171,20.38411036797923,20.40484318823795,20.40467580217623,20.39753286933445,20.39770024556464,20.40118806823774,20.35865966457941,20.35849042606097,20.35134781243693,20.35151704100137,20.35500377782281],[-100.337592600312,-100.3300621564531,-100.330149838183,-100.3376798867197,-100.3338711204169,-100.3180282232273,-100.3104957951537,-100.3105845277016,-100.3181165602456,-100.314306276582,-100.2902585378332,-100.2827301596878,-100.2828203021306,-100.2903482851736,-100.2865393212063,-100.4319193052341,-100.4243827215542,-100.4244655179306,-100.4320017056373,-100.428192312589,-100.4217218786389,-100.4141822891301,-100.4142656548013,-100.4218048480217,-100.417993667648,-100.3838748851562,-100.3763373520676,-100.3764226841163,-100.3839598211349,-100.3801486856188,-98.85553342703246,-98.84807174151088,-98.8482357445027,-98.8556970420226,-98.85188448876717,-98.82523421697033,-98.81776816166628,-98.81793383890873,-98.82539950576013,-98.82158393082636,-98.8147054486911,-98.80723694915456,-98.80740322928209,-98.8148713401129,-98.81105424181015,-98.80839085317744,-98.8009297690872,-98.80109621238678,-98.80855690854355,-98.80474343579874,-98.8092337363144,-98.80177462134246,-98.80194097675748,-98.80939970400057,-98.80558725960373,-98.77742720292173,-98.76996027155461,-98.77012845839414,-98.77759500122329,-98.77377773352343,-98.73668875903576,-98.72917172791182,-98.72934318197538,-98.73685981933521,-98.73301587206454,-98.67966426511305,-98.67214787165631,-98.6723223011255,-98.67983830089213,-98.67599318469675,-98.67123143325142,-98.66371756073886,-98.66389237359427,-98.67140585268183,-98.66756180506658,-98.71410874441379,-98.70658375366179,-98.70675657497496,-98.71428117113139,-98.71043256104548,-98.66635364813128,-98.65882877317793,-98.65900409862297,-98.66652857899895,-98.66267877473278,-98.65791573681484,-98.65039338857943,-98.65056909780853,-98.6580910517326,-98.65424231873385,-100.5385087080595,-100.5309790375966,-100.5310561612841,-100.5385854364937,-100.5347823358585,-100.5283632775374,-100.5208306059643,-100.5209082934324,-100.5284405694377,-100.5246356865929,-100.4806605551212,-100.4731284381008,-100.4732086252164,-100.48074034673,-100.4769344912921,-100.4441832410123,-100.4366596917666,-100.4367417008832,-100.4442648555235,-100.4404623722964,-100.405667849099,-100.3981428410577,-100.3982268871339,-100.405751500419,-100.4019472694274,-100.3873174727233,-100.3797959929758,-100.379880961897,-100.3874020472596,-100.3835991187139,-100.2728863466237,-100.2728863466237,-100.2652387447425,-100.2652387447425,-100.26533124744,-100.26533124744,-100.2729784416071,-100.2729784416071,-100.2691086951033,-100.2691086951033,-100.2347764885288,-100.2347764885288,-100.2271320409718,-100.2271320409718,-100.2272265368473,-100.2272265368473,-100.2348705770291,-100.2348705770291,-100.2310014108442,-100.2310014108442,-100.1953553151598,-100.1953553151598,-100.1877083329363,-100.1877083329363,-100.1878049623872,-100.1878049623872,-100.195451536968,-100.195451536968,-100.1915800368628,-100.1915800368628,-100.1845435914401,-100.1768919626448,-100.1769892279372,-100.184640448595,-100.1807663076543,-100.1356059211361,-100.1279528045062,-100.1280527004797,-100.1357054088171,-100.1318292087348,-100.1071059208738,-100.099455435417,-100.0995568173739,-100.107206894821,-100.1033312671214,-100.2728863466237,-100.2728863466237,-100.2652387447425,-100.2652387447425,-100.26533124744,-100.26533124744,-100.2729784416071,-100.2729784416071,-100.2691086951033,-100.2691086951033,-100.2347764885288,-100.2347764885288,-100.2271320409718,-100.2271320409718,-100.2272265368473,-100.2272265368473,-100.2348705770291,-100.2348705770291,-100.2310014108442,-100.2310014108442,-100.1953553151598,-100.1953553151598,-100.1877083329363,-100.1877083329363,-100.1878049623872,-100.1878049623872,-100.195451536968,-100.195451536968,-100.1915800368628,-100.1915800368628,-100.0897546903709,-100.082112509696,-100.0822147058459,-100.0898564793977,-100.0859845963276,-100.0906586793627,-100.0830201143514,-100.0831222138076,-100.0907603720809,-100.0868903449006,-100.0222576063668,-100.0146170739105,-100.0147228442415,-100.0223629697555,-100.0184901235686,-98.92731084855306,-98.91972215649422,-98.91988515806983,-98.92747344879776,-98.92359790297871,-98.9162289731596,-98.90863673545014,-98.90880040025174,-98.9163922362565,-98.91251458627949,-98.87852247528957,-98.87093236493921,-98.87109798011939,-98.87868768899473,-98.87481012733572,-98.69207563561297,-98.6845002228301,-98.68467536909492,-98.69225038197939,-98.68837540237935,-98.6435504358721,-98.63597412594945,-98.63615185765363,-98.64372776758947,-98.63985104676615,-98.606223715398,-98.59865003885237,-98.59882968077616,-98.6064029576179,-98.60252659816111],2,null,null,{"interactive":true,"className":"","stroke":true,"color":"red","weight":5,"opacity":0.5,"fill":true,"fillColor":"red","fillOpacity":0.2},null,null,null,null,null,{"interactive":false,"permanent":false,"direction":"auto","opacity":1,"offset":[0,0],"textsize":"10px","textOnly":false,"className":"","sticky":true},null]},{"method":"addLegend","args":[{"colors":["#9FFC31","#F5FC31"],"labels":["Alta","Media"],"na_color":null,"na_label":"NA","opacity":0.8,"position":"topright","type":"unknown","title":"Módulos de integridad","extra":null,"layerId":null,"className":"info legend","group":null}]},{"method":"addScaleBar","args":[{"maxWidth":100,"metric":true,"imperial":true,"updateWhenIdle":true,"position":"bottomleft"}]}],"limits":{"lat":[18.27082811406695,21.73803722809376],"lng":[-100.5396093807401,-98.59760624807242]}},"evals":[],"jsHooks":[]}</script>
+<p>Mapa de cúmulos</p>
+</div>
+</div>
+</section>
+<section id="sensores-pasivos" class="level2" data-number="2.3">
+<h2 data-number="2.3" class="anchored" data-anchor-id="sensores-pasivos"><span class="header-section-number">2.3</span> Sensores pasivos</h2>
+<p>El diseño de muestreo implementado en CoSMoS consiste en monitorear de manera simultánea en los seis nodos de cada cúmulo. La evaluación del estado de la fauna se hará con base en los datos obtenidos mediante sensores pasivos (cámaras trampa y grabadoras).</p>
+<p>Cada nodo estará compuesto por 5 cámaras trampa, 3 grabadoras y 3 dispositivos para registrar temperatura y humedad (en adelante denominados dataloggers), que operarán por períodos de 90 días continuos en cada temporada de muestreo para la captura de fotografías, y sonidos y datos climáticos. Las cámaras se colocarán en un cuadrante, cuatro de ellas separadas por 1 Km de distancia (una en cada esquina) y la quinta al centro del cuadrante. Las grabadoras y los data loggers se colocarán en tres de los cinco sitios donde se pondrán las cámaras, una al centro del cuadrante y las otras dos en alguna esquina (<a href="#fig-02" class="quarto-xref">Figura&nbsp;2</a>).</p>
+<div id="fig-02" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-02-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="Figuras2/sitio.png" class="img-fluid figure-img" style="width:75.0%">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-02-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figura&nbsp;2: Nodos y sitios.
+</figcaption>
+</figure>
+</div>
+</section>
+</section>
+<section id="temario-del-taller" class="level1" data-number="3">
+<h1 data-number="3"><span class="header-section-number">3</span> Temario del Taller</h1>
+<p><span style="color:#8DC63F; font-size: 1.2em; font-weight: bold;">Presentación</span></p>
+<p>• Proyecto CoSMoS y el monitoreo de biodiversidad en México</p>
+<p>• Protocolo de monitoreo de biodiversidad CoSMoS</p>
+<p>• Programa de herramientas de participación social (SACBÉ- Servicios Ambientales, Conservación Biológica y Educación A.C.)</p>
+<p>• A ver Aves con comunidades (CONABIO)</p>
+<p><span style="color:#8DC63F; font-size: 1.2em; font-weight: bold;">Protocolo de Monitoreo</span></p>
+<p><span style="color:black; font-size: 1em; font-weight: bold;">Evaluación Rápida de Integridad Ecosistémica (ERIE)</span></p>
+<p>• Presentación de la ERIE</p>
+<p>• Estructura del formulario ERIE en ecosistemas</p>
+<p>• Cobertura de dosel</p>
+<p>• Ejemplos de llenado de formulario KoboCollect</p>
+<p>• Instalación y configuración de la aplicación KoboCollect</p>
+<p>• Descarga de formulario para la ERIE</p>
+<p>• Canopy Capture: instalación y uso</p>
+<p><span style="color:black; font-size: 1em; font-weight: bold;">Cámara trampa Reconyx HyperFire 2</span></p>
+<p>• Importancia del monitoreo con fototrampeo</p>
+<p>• Partes de la cámara</p>
+<p>• Características del sitio de colocación en campo</p>
+<p>• Configuración y pruebas de funcionamiento</p>
+<p>• Formulario KoboCollect para Cámara trampa</p>
+<p>• Retiro de cámara trampa (apagado y llenado de formulario)</p>
+<p>• Resguardo de las memorias</p>
+<p><span style="color:black; font-size: 1em; font-weight: bold;">Grabadora SongMeter Mini Bat 2AA</span></p>
+<p>• Importancia del monitoreo acústico</p>
+<p>• Partes de la grabadora</p>
+<p>• Características del sitio de colocación en campo</p>
+<p>• Configuración y consideraciones del dispositivo</p>
+<p>• Instalación en teléfono de Songmeter configurator</p>
+<p>• Formulario KoboCollect para grabadora</p>
+<p>• Retiro grabadora (apagado y llenado de formulario)</p>
+<p>• Resguardo de las memorias</p>
+<p><span style="color:black; font-size: 1em; font-weight: bold;">Datalogger HOBO MX2202 Temp/Light</span></p>
+<p>• Importancia de la temperatura en el monitoreo</p>
+<p>• Partes del datalogger</p>
+<p>• Características del sitio de colocación en campo</p>
+<p>• Configuración de parámetros de monitoreo</p>
+<p>• Instalación de la aplicación HOBOconnect</p>
+<p>• Formulario KoboCollect para Datalogger</p>
+<p>• Retiro de datalogger (apagado y llenado de formulario)</p>
+<p>• Descarga y exportación de datos. Envío de archivos .xlsx</p>
+<p><span style="color:#8DC63F; font-size: 1.2em; font-weight: bold;">Práctica con Sensores Pasivos</span></p>
+<p>• Práctica de sitio: transecto ERIE y Colocación de 3 sensores:</p>
+<p>Meta: Llenado y envío correcto de 4 formularios cada persona: 1 ERIE y 3 Colocación (uno por sensor)</p>
+<p>• Hacer transecto 100m ERIE y envío de formulario ERIE (por persona)</p>
+<p>• Instalación de tres sensores</p>
+<p>• Montaje y pruebas</p>
+<p>• Llenado y envío de tres formularios electrónicos de colocación (1 por sensor)</p>
+<p><span style="color:black; font-size: 1em; font-weight: bold;">GPS y Aplicaciones</span></p>
+<p>• Uso adecuado del GPS Garmin 32X</p>
+<p>• Instalación de archivos GPX</p>
+<p>• Práctica de navegación y toma de coordenadas</p>
+<p><span style="color:black; font-size: 1em; font-weight: bold;">Aplicaciones Avanza Maps y Locus Map</span></p>
+<p>• Instalación y configuración</p>
+<p>• Descarga de mapas offline</p>
+<p>• Uso de archivos KML, GPX y PDF georreferenciados</p>
+<p>• Integración con datos CoSMoS</p>
+<p><span style="color:#8DC63F; font-size: 1.2em; font-weight: bold;">Retiro de Dispositivos y Envío de Información</span></p>
+<p>• Detener toma de datos de los dispositos cámaras-grabadoras-dataloggers</p>
+<p>• Descarga de archivos de audio y cámaras; y exportación de datos del datalogger</p>
+<p>• Revisión de Recepción Formularios KoboCollect del 11 de Febrero y 12 Febrero (1 ERIE, 3 colocación, 3 retiro).</p>
+<p>• Protocolo para el adecuado envío de información</p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copiado");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copiado");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+        const codeEl = trigger.previousElementSibling.cloneNode(true);
+        for (const childEl of codeEl.children) {
+          if (isCodeAnnotation(childEl)) {
+            childEl.remove();
+          }
+        }
+        return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
+            // default icon
+            link.classList.add("external");
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+
+
+
+</body></html>

@@ -1,0 +1,117 @@
+---
+title: |
+ <div class="title-container">
+    <span class="title-text">
+      Conservación y uso Sostenible <br> en Montañas y Sierras (CoSMoS)
+    </span>
+    <img src="Figuras2/CoSMoS_logo.png" alt="Logo de CoSMoS" class="title-logo">
+  </div>
+
+
+subtitle: "Capacitación para Monitoreo Comunitario de la Biodiversidad Faunística"
+
+
+date-format: long
+lang: es
+
+css:
+  - styles.css
+  - https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css
+
+header-includes: |
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Open+Sans:wght@400;500&display=swap" rel="stylesheet">
+
+  <meta name="description" content="Página interactiva sobre Conservación y uso Sostenible en Montañas y Sierras (CoSMoS).">
+  <meta name="keywords" content="conservación, montañas, sierras, CoSMoS">
+  <meta name="author" content="Arturo Zavaleta Aguilar">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+toc: true
+toc-title: "Contenido"
+toc-location: right
+number-sections: true
+
+format:
+  html:
+    title-block-banner: '#F1F1F2'
+    title-block-banner-color: '#F1B24A'
+    mainfont: "Open Sans"
+    heading-font: "Montserrat"
+    link-external-icon: true
+    link-external-newwindow: true
+    execute:
+      echo: false
+      warning: false
+      message: false
+      cache: true
+    include-after-body: |
+      <footer style="text-align: center; padding: 20px; background-color: #164a41; color: #F1B24A;">
+        <p>&copy; 2026 Arturo Zavaleta Aguilar. Todos los derechos reservados.</p>
+      </footer>
+---
+
+# Enlace manual de monitoreo CoSMoS
+
+[Manual de monitoreo CoSMoS]{style="color:#8DC63F; font-size: 1.2em; font-weight: bold;"}
+
+[LINK MANUAL DE MONITOREO](https://bioteca.biodiversidad.gob.mx/janium-bin/janium_login_opac.pl?find&ficha_no=17939)
+
+# Enlace presentaciones coordinadores locales
+
+[ECOYDES]{style="color:#8DC63F; font-size: 1.2em; font-weight: bold;"}
+
+[AMBIOMAS]{style="color:#8DC63F; font-size: 1.2em; font-weight: bold;"}
+
+[WILD FOREST]{style="color:#8DC63F; font-size: 1.2em; font-weight: bold;"}
+
+[COPANABIS]{style="color:#8DC63F; font-size: 1.2em; font-weight: bold;"}
+
+[IBUNAM]{style="color:#8DC63F; font-size: 1.2em; font-weight: bold;"}
+
+
+# Enlace a presentaciones
+
+[MONITOREO DE LA BIODIVERSIDAD CONABIO]{style="color:black; font-size: 1.2em; font-weight: bold;"}
+
+[LINK MONITOREO DE LA BIODIVERSIDAD](https://www.dropbox.com/scl/fi/zpu4fsp58l4gqdmf3dy6d/Mariana-COSMOS-Capacitaci-n-t-cnica-P1-y-P2.pptx?rlkey=2gt2z4jac6r8bsw28t5s63ayy&st=zbro22le&dl=0)
+
+[Evaluación Rápida de Integridad Ecosistémica (ERIE)]{style="color:black; font-size: 1.2em; font-weight: bold;"}
+
+
+[LINK ERIE](https://www.dropbox.com/scl/fi/vh6ids0zbqwxrqsf1h05l/ERIE_CoSMoS.pptx?rlkey=93amevlnwoovktit4jbm3eoxo&st=iazmphlj&dl=0)
+
+
+[Formulario KoboCollect]{style="color:black; font-size: 1.2em; font-weight: bold;"}
+
+
+[LINK KOBOCOLLECT](https://www.dropbox.com/scl/fi/7pyr6zxd0azu2i1wmr71w/KoboCollect.pptx?rlkey=6iffi8dqmnuvz1anli6wdn4ag&st=yt3xnzxd&dl=0)
+
+
+[Cámara trampa Reconyx HyperFire 2]{style="color:black; font-size: 1.2em; font-weight: bold;"}
+
+[LINK CÁMARA TRAMPA](https://www.dropbox.com/scl/fi/hvwzvzvcvwdsb2dgoix3g/Camara-trampa_CoSMoS.pptx?rlkey=4srkjtri99ud4tdy9zfbbdglv&st=763flwls&dl=0)
+
+
+[Grabadora SongMeter Mini Bat 2AA]{style="color:black; font-size: 1.2em; font-weight: bold;"}
+
+[LINK GRABADORA SONGMETER MINI BAT](https://www.dropbox.com/scl/fi/vchhqvsoqrze0101wt70t/5_Grabadora-SongMeter-Mini-Bat-2AA.pdf?rlkey=xc6qea5buxiz21ou9gmhqowdv&st=uxr3xyfg&dl=0)
+
+
+[Datalogger HOBO MX2202 Temp/Light]{style="color:black; font-size: 1.2em; font-weight: bold;"}
+
+[LINK DATALOGGER HOBO](https://www.dropbox.com/scl/fi/h4mvagtnjilj5vj6iucec/Dataloggers_HOBO-CoSMoS.pptx?rlkey=71tonulggoir9do0ngs2h1kpi&st=ovsrrmb7&dl=0)
+
+
+[Aplicaciones de navegación]{style="color:black; font-size: 1.2em; font-weight: bold;"}
+
+[LINK APLICACIONES DE NAVEGACIÓN]()
+
+
+# Enlace presentacion SACBÉ 
+
+
+[SACBÉ ]{style="color:black; font-size: 1.2em; font-weight: bold;"}
+
+[LINK PRESENTACIÓN SACBÉ]()
