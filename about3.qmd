@@ -116,7 +116,7 @@ format:
 
 [Aplicaciones de navegación]{style="color:black; font-size: 1.2em; font-weight: bold;"}
 
-[LINK APLICACIONES DE NAVEGACIÓN]()
+[LINK APLICACIONES DE NAVEGACIÓN](https://www.dropbox.com/scl/fi/c8flfmknhska3j76qqndb/7_GPS-y-Aplicaciones.pptx?rlkey=gi7uh1e603aj3dk5iiycqvkxq&st=3jv25nmv&dl=0)
 
 
 # Enlace presentacion SACBÉ 
