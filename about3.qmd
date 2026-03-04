@@ -62,13 +62,23 @@ format:
 
 [ECOYDES]{style="color:#8DC63F; font-size: 1.2em; font-weight: bold;"}
 
+[LINK ECOYDES](https://www.dropbox.com/scl/fi/chzctd7h01qzwkgr3i5ta/CoSMoS-ECOYDES.pptx?rlkey=9rlw7e23s13n61169kvl28xfm&st=rua775yi&dl=0)
+
 [AMBIOMAS]{style="color:#8DC63F; font-size: 1.2em; font-weight: bold;"}
+
+[LINK AMBIOMAS](https://www.dropbox.com/scl/fi/hjaw8nqoimwetfegubetf/CoSMoS_AMBIOMAS.pptx?rlkey=sdnisc5kqsrvnlwucdisxahxn&st=3inzirx6&dl=0)
 
 [WILD FOREST]{style="color:#8DC63F; font-size: 1.2em; font-weight: bold;"}
 
+[LINK WILD FOREST](https://www.dropbox.com/scl/fi/fjg0jqq2sx19qj4hhyuz2/CoSMoS-WILD-FOREST.pptx?rlkey=lwaj7u8exgnqnk359ksbzjfjn&st=0tcagdnl&dl=0)
+
 [COPANABIS]{style="color:#8DC63F; font-size: 1.2em; font-weight: bold;"}
 
+[LINK COPANABIS](https://www.dropbox.com/scl/fi/fc6ddkm1hsfv8hbif6zri/PRESENTACION_COPANABIS.pptx?rlkey=k9kw4lj5gn1r667b2v98qbf3k&st=ypflpvc8&dl=0)
+
 [IBUNAM]{style="color:#8DC63F; font-size: 1.2em; font-weight: bold;"}
+
+[LINK IBUNAM](https://www.dropbox.com/scl/fi/8jxska6divwrob9ol5fit/CoSMoS-IBUNAM.pptx?rlkey=e7bs5i0o3chi1xm139qba4sis&st=e6k0rzho&dl=0)
 
 
 # Enlace a presentaciones
@@ -114,4 +124,4 @@ format:
 
 [SACBÉ ]{style="color:black; font-size: 1.2em; font-weight: bold;"}
 
-[LINK PRESENTACIÓN SACBÉ]()
+[LINK PRESENTACIÓN SACBÉ](https://www.dropbox.com/scl/fi/heg7rs0tfolcxw39d6efe/Programa-de-formaci-n-CoSMoS.pdf?rlkey=8ho37tn42fkehtgvl2q5cza6n&st=76xgqeu8&dl=0)
