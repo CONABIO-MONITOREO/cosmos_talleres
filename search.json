@@ -18,7 +18,7 @@
     "href": "index.html#cúmulos",
     "title": "\n Conservación y uso Sostenible  en Montañas y Sierras (CoSMoS)  \n",
     "section": "2.1 Cúmulos",
-    "text": "2.1 Cúmulos\nCada cúmulo se compone de dos elementos denominados módulos, los cuales tienen un valor de integridad ecosistémica diferente: módulo íntegridad alta (íntegro) y módulo con integridad media (degradado) (Figura 1).\n\n\n\n\n\n\nFigura 1: Estructura y componentes del diseño espacial para elmonitoreo de la biodiversidad faunística.\n\n\n\nEn el siguiente mapa se muestran los Cúmulos propuestos para el proyecto CoSMoS."
+    "text": "2.1 Cúmulos\nCada cúmulo se compone de dos elementos denominados módulos, los cuales tienen un valor de integridad ecosistémica diferente: módulo íntegridad alta (íntegro) y módulo con integridad media (degradado) (Figura 1).\n\n\n\n\n\n\nFigura 1: Estructura y componentes del diseño espacial para el monitoreo de la biodiversidad faunística.\n\n\n\nEn el siguiente mapa se muestran los Cúmulos propuestos para el proyecto CoSMoS."
   },
   {
     "objectID": "index.html#modulos-nodos-y-sitios",
@@ -46,14 +46,14 @@
     "href": "about3.html",
     "title": "\n Conservación y uso Sostenible  en Montañas y Sierras (CoSMoS)  \n",
     "section": "",
-    "text": "1 Enlace manual de monitoreo CoSMoS\nManual de monitoreo CoSMoS\nLINK MANUAL DE MONITOREO\n\n\n2 Enlace presentaciones coordinadores locales\nECOYDES\nLINK ECOYDES\nAMBIOMAS\nLINK AMBIOMAS\nWILD FOREST\nLINK WILD FOREST\nCOPANABIS\nLINK COPANABIS\nIBUNAM\nLINK IBUNAM\n\n\n3 Enlace a presentaciones\nMONITOREO DE LA BIODIVERSIDAD CONABIO\nLINK MONITOREO DE LA BIODIVERSIDAD\nEvaluación Rápida de Integridad Ecosistémica (ERIE)\nLINK ERIE\nFormulario KoboCollect\nLINK KOBOCOLLECT\nCámara trampa Reconyx HyperFire 2\nLINK CÁMARA TRAMPA\nGrabadora SongMeter Mini Bat 2AA\nLINK GRABADORA SONGMETER MINI BAT\nDatalogger HOBO MX2202 Temp/Light\nLINK DATALOGGER HOBO\nAplicaciones de navegación\nLINK APLICACIONES DE NAVEGACIÓN\n\n\n4 Enlace presentacion SACBÉ\nSACBÉ\nLINK PRESENTACIÓN SACBÉ"
+    "text": "1 Manual de monitoreo\nManual de monitoreo CoSMoS\n\n\n2 Curso\nMonitoreo de la Biodiversidad CONABIO\nEvaluación Rápida de Integridad Ecosistémica (ERIE)\nFormulario KoboCollect\nCámara trampa Reconyx HyperFire 2\nGrabadora SongMeter Mini Bat 2AA\nDatalogger HOBO MX2202 Temp/Light\nAplicaciones de navegación\n\n\n3 Coordinadores locales\nECOYDES\nAMBIOMAS\nWILD FOREST\nCOPANABIS\nIBUNAM\n\n\n4 Introducción al programa de formación en herramientas de formación social\nFormación de herramientas de formación social SACBÉ"
   },
   {
     "objectID": "about2.html",
     "href": "about2.html",
     "title": "\n Conservación y uso Sostenible  en Montañas y Sierras (CoSMoS)  \n",
     "section": "",
-    "text": "1 Enlace de aplicaciones\nKoboCollect\nLiga a koboCollect\nCanopy Capture\nLiga a Canopy Capture\nSongmeter configurator\nLiga a Songmeter configurator\nDatalogger\nLiga Datalogger\nAvanza Maps\nLiga a Avanza Maps\nLocus Map\nLiga a Locus Map"
+    "text": "1 Enlace de aplicaciones\nKoboCollect\nCanopy Capture\nSongmeter configurator\nDatalogger\nAvanza Maps\nLocus Map"
   },
   {
     "objectID": "shape/puntos_selec_C.html",
@@ -61,5 +61,19 @@
     "title": "CoSMoS",
     "section": "",
     "text": "&lt;!DOCTYPE qgis PUBLIC ‘http://mrcc.com/qgis.dtd’ ‘SYSTEM’&gt;     \n\n\n        0 0     false"
+  },
+  {
+    "objectID": "index.html#módulos-nodos-y-sitios",
+    "href": "index.html#módulos-nodos-y-sitios",
+    "title": "\n Conservación y uso Sostenible  en Montañas y Sierras (CoSMoS)  \n",
+    "section": "2.2 Módulos, nodos y sitios",
+    "text": "2.2 Módulos, nodos y sitios\nCada Cúmulo, se separa en dos grupos de acuerdo con su valor de integridad ecosistémica (IE): módulo íntegro y módulo degradado. Cada módulo se compone de tres elementos denominados nodos. En el mapa se aprecia un Cúmulo, el cual esta compuesto por dos módulos, y cada módulo se compone de tres elementos denominados nodos. Dentro de cada nodo se encuentran los sitios que son la unidad de muestreo más pequeña, y se refiere al lugar donde se van a colocar los sensores (cámaras trampa, grabadoras y sensor de temperatura). Así cada nodo es representado por 5 sitios en forma de un cuadrante de 1km2, en los cuales se ubicaran 5 cámaras trampa, 3 grabadoras y 3 sensores de temperatura, estos tendrán una disposición en diagonal sobre el cuadrante.\n\n\n\n\nMapa de cúmulos"
+  },
+  {
+    "objectID": "about2.html#canopy-capture",
+    "href": "about2.html#canopy-capture",
+    "title": "\n Conservación y uso Sostenible  en Montañas y Sierras (CoSMoS)  \n",
+    "section": "",
+    "text": "Songmeter configurator\nDatalogger\nAvanza Maps\nLocus Map"
   }
 ]

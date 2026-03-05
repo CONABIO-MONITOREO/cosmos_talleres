@@ -67,7 +67,7 @@ Dentro de la región del proyecto CosMoS, se han propuestos diferentes sitios de
 
 Cada cúmulo se compone de dos elementos denominados módulos, los cuales tienen un valor de integridad ecosistémica diferente: módulo íntegridad alta (íntegro) y módulo con integridad media (degradado) (@fig-01).
 
-![Estructura y componentes del diseño espacial para elmonitoreo de la biodiversidad faunística.](Figuras2/cumulo.png){#fig-01 width="60%"}
+![Estructura y componentes del diseño espacial para el monitoreo de la biodiversidad faunística.](Figuras2/cumulo.png){#fig-01 width="60%"}
 
 En el siguiente mapa se muestran los Cúmulos propuestos para el proyecto CoSMoS.
 
@@ -119,9 +119,9 @@ leaflet() %>%
 
 ```
 
-## Modulos, nodos y sitios
+## Módulos, nodos y sitios
 
-Cada Cúmulo, se separa en dos grupos de acuerdo con su valor de integridad ecosistémica (IE): módulo íntegro y módulo degradado. Cada módulo se compone de tres elementos denominados nodos. En el mapa se aprecia un Cúmulo, el cual esta compuesto por dos módulos, y cada módulo se compone de tres elementos denominados nodos. Dentro de cada nodo se encuentran los *sitios* que son la unidad de muestreo más pequeña, y se refiere al lugar donde se van a colocar los sensores (cámaras trampa, grabadoras y sensor de temperatura). Así cada nodo es representado por 5 sitios en forma de un cuadrante de 1km2, en los cuales se ubicaran 5 cámaras trampa, 3 grabadoras y 3 sensores de temperatura y humedad, estos tendrán una disposición en diagonal sobre el cuadrante.
+Cada Cúmulo, se separa en dos grupos de acuerdo con su valor de integridad ecosistémica (IE): módulo íntegro y módulo degradado. Cada módulo se compone de tres elementos denominados nodos. En el mapa se aprecia un Cúmulo, el cual esta compuesto por dos módulos, y cada módulo se compone de tres elementos denominados nodos. Dentro de cada nodo se encuentran los *sitios* que son la unidad de muestreo más pequeña, y se refiere al lugar donde se van a colocar los sensores (cámaras trampa, grabadoras y sensor de temperatura). Así cada nodo es representado por 5 sitios en forma de un cuadrante de 1km2, en los cuales se ubicaran 5 cámaras trampa, 3 grabadoras y 3 sensores de temperatura, estos tendrán una disposición en diagonal sobre el cuadrante.
 
 ```{r}
 #| echo: false
@@ -190,7 +190,7 @@ Cada nodo estará compuesto por 5 cámaras trampa, 3 grabadoras y 3 dispositivos
 
 # Temario del Taller
 
-[Presentación]{style="color:#8DC63F; font-size: 1.2em; font-weight: bold;"}
+[Introducción]{style="color:#8DC63F; font-size: 1.2em; font-weight: bold;"}
 
 • Proyecto CoSMoS y el monitoreo de biodiversidad en México
 
@@ -275,7 +275,7 @@ Conservación Biológica y Educación A.C.)
 
 [Práctica con Sensores Pasivos]{style="color:#8DC63F; font-size: 1.2em; font-weight: bold;"}
 
-  • Práctica de sitio: transecto ERIE y Colocación de 3 sensores:
+  • Práctica de sitio: transecto ERIE y colocación de 3 sensores:
   
    Meta: Llenado y envío correcto de 4 formularios cada persona: 1 ERIE y 3 Colocación (uno por sensor)
 
@@ -312,7 +312,7 @@ Conservación Biológica y Educación A.C.)
 
   • Descarga de archivos de audio y cámaras; y exportación de datos del datalogger
 
-  • Revisión de Recepción Formularios KoboCollect del 11 de Febrero y 12 Febrero (1 ERIE, 3 colocación, 3 retiro).
+  • Revisión de recepción formularios koboCollect.
   
   • Protocolo para el adecuado envío de información
 

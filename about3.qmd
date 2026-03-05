@@ -52,76 +52,64 @@ format:
       </footer>
 ---
 
-# Enlace manual de monitoreo CoSMoS
-
-[Manual de monitoreo CoSMoS]{style="color:#8DC63F; font-size: 1.2em; font-weight: bold;"}
-
-[LINK MANUAL DE MONITOREO](https://bioteca.biodiversidad.gob.mx/janium-bin/janium_login_opac.pl?find&ficha_no=17939)
-
-# Enlace presentaciones coordinadores locales
-
-[ECOYDES]{style="color:#8DC63F; font-size: 1.2em; font-weight: bold;"}
-
-[LINK ECOYDES](https://www.dropbox.com/scl/fi/chzctd7h01qzwkgr3i5ta/CoSMoS-ECOYDES.pptx?rlkey=9rlw7e23s13n61169kvl28xfm&st=rua775yi&dl=0)
-
-[AMBIOMAS]{style="color:#8DC63F; font-size: 1.2em; font-weight: bold;"}
-
-[LINK AMBIOMAS](https://www.dropbox.com/scl/fi/hjaw8nqoimwetfegubetf/CoSMoS_AMBIOMAS.pptx?rlkey=sdnisc5kqsrvnlwucdisxahxn&st=3inzirx6&dl=0)
-
-[WILD FOREST]{style="color:#8DC63F; font-size: 1.2em; font-weight: bold;"}
-
-[LINK WILD FOREST](https://www.dropbox.com/scl/fi/fjg0jqq2sx19qj4hhyuz2/CoSMoS-WILD-FOREST.pptx?rlkey=lwaj7u8exgnqnk359ksbzjfjn&st=0tcagdnl&dl=0)
-
-[COPANABIS]{style="color:#8DC63F; font-size: 1.2em; font-weight: bold;"}
-
-[LINK COPANABIS](https://www.dropbox.com/scl/fi/fc6ddkm1hsfv8hbif6zri/PRESENTACION_COPANABIS.pptx?rlkey=k9kw4lj5gn1r667b2v98qbf3k&st=ypflpvc8&dl=0)
-
-[IBUNAM]{style="color:#8DC63F; font-size: 1.2em; font-weight: bold;"}
-
-[LINK IBUNAM](https://www.dropbox.com/scl/fi/8jxska6divwrob9ol5fit/CoSMoS-IBUNAM.pptx?rlkey=e7bs5i0o3chi1xm139qba4sis&st=e6k0rzho&dl=0)
+# Manual de monitoreo
 
 
-# Enlace a presentaciones
 
-[MONITOREO DE LA BIODIVERSIDAD CONABIO]{style="color:black; font-size: 1.2em; font-weight: bold;"}
-
-[LINK MONITOREO DE LA BIODIVERSIDAD](https://www.dropbox.com/scl/fi/zpu4fsp58l4gqdmf3dy6d/Mariana-COSMOS-Capacitaci-n-t-cnica-P1-y-P2.pptx?rlkey=2gt2z4jac6r8bsw28t5s63ayy&st=zbro22le&dl=0)
-
-[Evaluación Rápida de Integridad Ecosistémica (ERIE)]{style="color:black; font-size: 1.2em; font-weight: bold;"}
+[Manual de monitoreo CoSMoS](https://bioteca.biodiversidad.gob.mx/janium-bin/janium_login_opac.pl?find&ficha_no=17939){style="font-size: 23px;"}
 
 
-[LINK ERIE](https://www.dropbox.com/scl/fi/vh6ids0zbqwxrqsf1h05l/ERIE_CoSMoS.pptx?rlkey=93amevlnwoovktit4jbm3eoxo&st=iazmphlj&dl=0)
+
+# Curso
 
 
-[Formulario KoboCollect]{style="color:black; font-size: 1.2em; font-weight: bold;"}
+[Monitoreo de la Biodiversidad CONABIO](https://www.dropbox.com/scl/fi/zpu4fsp58l4gqdmf3dy6d/Mariana-COSMOS-Capacitaci-n-t-cnica-P1-y-P2.pptx?rlkey=2gt2z4jac6r8bsw28t5s63ayy&st=zbro22le&dl=0){style="font-size: 23px;"}
+
+ 
+[Evaluación Rápida de Integridad Ecosistémica (ERIE) ](https://www.dropbox.com/scl/fi/vh6ids0zbqwxrqsf1h05l/ERIE_CoSMoS.pptx?rlkey=93amevlnwoovktit4jbm3eoxo&st=iazmphlj&dl=0){style="font-size: 23px;"}
 
 
-[LINK KOBOCOLLECT](https://www.dropbox.com/scl/fi/7pyr6zxd0azu2i1wmr71w/KoboCollect.pptx?rlkey=6iffi8dqmnuvz1anli6wdn4ag&st=yt3xnzxd&dl=0)
+[Formulario KoboCollect](https://www.dropbox.com/scl/fi/7pyr6zxd0azu2i1wmr71w/KoboCollect.pptx?rlkey=6iffi8dqmnuvz1anli6wdn4ag&st=yt3xnzxd&dl=0){style="font-size: 23px;"}
 
 
-[Cámara trampa Reconyx HyperFire 2]{style="color:black; font-size: 1.2em; font-weight: bold;"}
-
-[LINK CÁMARA TRAMPA](https://www.dropbox.com/scl/fi/hvwzvzvcvwdsb2dgoix3g/Camara-trampa_CoSMoS.pptx?rlkey=4srkjtri99ud4tdy9zfbbdglv&st=763flwls&dl=0)
+[Cámara trampa Reconyx HyperFire 2](https://www.dropbox.com/scl/fi/hvwzvzvcvwdsb2dgoix3g/Camara-trampa_CoSMoS.pptx?rlkey=4srkjtri99ud4tdy9zfbbdglv&st=763flwls&dl=0){style="font-size: 23px;"}
 
 
-[Grabadora SongMeter Mini Bat 2AA]{style="color:black; font-size: 1.2em; font-weight: bold;"}
 
-[LINK GRABADORA SONGMETER MINI BAT](https://www.dropbox.com/scl/fi/vchhqvsoqrze0101wt70t/5_Grabadora-SongMeter-Mini-Bat-2AA.pdf?rlkey=xc6qea5buxiz21ou9gmhqowdv&st=uxr3xyfg&dl=0)
+[Grabadora SongMeter Mini Bat 2AA](https://www.dropbox.com/scl/fi/vchhqvsoqrze0101wt70t/5_Grabadora-SongMeter-Mini-Bat-2AA.pdf?rlkey=xc6qea5buxiz21ou9gmhqowdv&st=uxr3xyfg&dl=0){style="font-size: 23px;"}
 
-
-[Datalogger HOBO MX2202 Temp/Light]{style="color:black; font-size: 1.2em; font-weight: bold;"}
-
-[LINK DATALOGGER HOBO](https://www.dropbox.com/scl/fi/h4mvagtnjilj5vj6iucec/Dataloggers_HOBO-CoSMoS.pptx?rlkey=71tonulggoir9do0ngs2h1kpi&st=ovsrrmb7&dl=0)
+[Datalogger HOBO MX2202 Temp/Light](https://www.dropbox.com/scl/fi/h4mvagtnjilj5vj6iucec/Dataloggers_HOBO-CoSMoS.pptx?rlkey=71tonulggoir9do0ngs2h1kpi&st=ovsrrmb7&dl=0){style="font-size: 23px;"}
 
 
-[Aplicaciones de navegación]{style="color:black; font-size: 1.2em; font-weight: bold;"}
-
-[LINK APLICACIONES DE NAVEGACIÓN](https://www.dropbox.com/scl/fi/c8flfmknhska3j76qqndb/7_GPS-y-Aplicaciones.pptx?rlkey=gi7uh1e603aj3dk5iiycqvkxq&st=3jv25nmv&dl=0)
+[Aplicaciones de navegación](https://www.dropbox.com/scl/fi/c8flfmknhska3j76qqndb/7_GPS-y-Aplicaciones.pptx?rlkey=gi7uh1e603aj3dk5iiycqvkxq&st=3jv25nmv&dl=0){style="font-size: 23px;"}
 
 
-# Enlace presentacion SACBÉ 
+# Coordinadores locales
 
 
-[SACBÉ ]{style="color:black; font-size: 1.2em; font-weight: bold;"}
+[**ECOYDES**](https://www.dropbox.com/scl/fi/chzctd7h01qzwkgr3i5ta/CoSMoS-ECOYDES.pptx?rlkey=9rlw7e23s13n61169kvl28xfm&st=rua775yi&dl=0){style="font-size: 23px;"}
 
-[LINK PRESENTACIÓN SACBÉ](https://www.dropbox.com/scl/fi/heg7rs0tfolcxw39d6efe/Programa-de-formaci-n-CoSMoS.pdf?rlkey=8ho37tn42fkehtgvl2q5cza6n&st=76xgqeu8&dl=0)
+
+
+[**AMBIOMAS**](https://www.dropbox.com/scl/fi/hjaw8nqoimwetfegubetf/CoSMoS_AMBIOMAS.pptx?rlkey=sdnisc5kqsrvnlwucdisxahxn&st=3inzirx6&dl=0){style="font-size: 23px;"}
+
+
+
+[**WILD FOREST**](https://www.dropbox.com/scl/fi/fjg0jqq2sx19qj4hhyuz2/CoSMoS-WILD-FOREST.pptx?rlkey=lwaj7u8exgnqnk359ksbzjfjn&st=0tcagdnl&dl=0){style="font-size: 23px;"}
+
+
+
+[**COPANABIS**](https://www.dropbox.com/scl/fi/fc6ddkm1hsfv8hbif6zri/PRESENTACION_COPANABIS.pptx?rlkey=k9kw4lj5gn1r667b2v98qbf3k&st=ypflpvc8&dl=0){style="font-size: 23px;"}
+
+
+[**IBUNAM**](https://www.dropbox.com/scl/fi/8jxska6divwrob9ol5fit/CoSMoS-IBUNAM.pptx?rlkey=e7bs5i0o3chi1xm139qba4sis&st=e6k0rzho&dl=0){style="font-size: 23px;"}
+
+
+
+# Introducción al programa de formación en herramientas de formación social  
+
+[Formación de herramientas de formación social SACBÉ](https://www.dropbox.com/scl/fi/heg7rs0tfolcxw39d6efe/Programa-de-formaci-n-CoSMoS.pdf?rlkey=8ho37tn42fkehtgvl2q5cza6n&st=76xgqeu8&dl=0){style="font-size: 23px;"}
+
+
+
+

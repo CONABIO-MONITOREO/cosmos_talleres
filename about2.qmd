@@ -55,28 +55,22 @@ format:
 
 # Enlace de aplicaciones
 
-[KoboCollect]{style="color:black; font-size: 1.1em; font-weight: bold;"}
 
-[Liga a koboCollect](https://play.google.com/store/apps/details?id=org.koboc.collect.android&pcampaignid=web_share)
+[**KoboCollect**](https://play.google.com/store/apps/details?id=org.koboc.collect.android&pcampaignid=web_share){style="font-size: 23px;"}
 
-[Canopy Capture]{style="color:black; font-size: 1.1em; font-weight: bold;"}
 
-[Liga a Canopy Capture](https://d.apkpure.com/b/APK/com.nikhilpatel.canopycapture?version=latest)
+[**Canopy Capture**](https://d.apkpure.com/b/APK/com.nikhilpatel.canopycapture?version=latest){style="font-size: 23px;"}
 
-[Songmeter configurator]{style="color:black; font-size: 1.1em; font-weight: bold;"}
 
-[Liga a Songmeter configurator](https://play.google.com/store/apps/details?id=com.wildlifeacoustics.SongMeterMiniConfigurator& pcampaignid=web_share)
+[**Songmeter configurator**](https://play.google.com/store/apps/details?id=com.wildlifeacoustics.SongMeterMiniConfigurator& pcampaignid=web_share){style="font-size: 23px;"}
 
-[Datalogger]{style="color:black; font-size: 1.1em; font-weight: bold;"}
 
-[Liga Datalogger](https://play.google.com/store/apps/details?id=com.onsetcomp.HOBOconnect&pcampaignid=web _share)
+[**Datalogger**](https://play.google.com/store/apps/details?id=com.onsetcomp.HOBOconnect&pcampaignid=web _share){style="font-size: 23px;"}
 
-[Avanza Maps]{style="color:black; font-size: 1.1em; font-weight: bold;"}
 
-[Liga a Avanza Maps](https://play.google.com/store/search?q=avenza%20maps&c=apps)
+[**Avanza Maps**](https://play.google.com/store/search?q=avenza%20maps&c=apps){style="font-size: 23px;"}
 
-[Locus Map]{style="color:black; font-size: 1.1em; font-weight: bold;"}
 
-[Liga a Locus Map](https://play.google.com/store/search?q=locus+map&c=apps)
+[**Locus Map**](https://play.google.com/store/search?q=locus+map&c=apps){style="font-size: 23px;"}
 
 
